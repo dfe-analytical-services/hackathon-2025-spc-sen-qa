@@ -1,0 +1,84 @@
+This was the layout for the run_all file which gives an idea of how I had laid the environment out if anyone wants to copy/adapt and push their own
+
+---
+  
+  title: "run all"
+
+author: "Hackathon 2025"
+
+date: "2025-06-03"
+
+output: html_document
+
+---
+  
+  
+  *Update this to the date that you are running the code on - this will add a suffix to outputs*
+  
+  ```{r}
+
+current_date <- "20250903"
+
+```
+
+# Set up the environment
+
+Load libraries and set variable
+
+```{r}
+
+source("setup/01_setup.R")
+
+```
+
+Read in the data
+
+```{r}
+
+source("setup/02_read_SPC.R")
+
+```
+
+```{r}
+
+source("setup/03_read_SEN.R")
+
+```
+
+
+# Analysis
+
+Calculate totals for SPC
+
+```{r}
+
+source("analysis/04_SPC_totals.R")
+
+```
+
+Calculate totals for SEN
+
+```{r}
+
+source("analysis/05_SEN_totals.R")
+
+```
+
+Compare SEN & SPC
+
+```{r}
+
+source("analysis/06_SPC_SEN_comparisons.R")
+
+```
+
+## outputs
+
+Produce rshiny writeup
+
+```{r}
+
+source("output/07_SPC_SEN_writeup.Rmd")
+
+```
+

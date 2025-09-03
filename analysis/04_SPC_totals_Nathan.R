@@ -3,15 +3,15 @@ test_summarise = function(a, b, c, d) {
 #Nathan
   
 if( b=="") {
-  
+
   #Alternative provision placements
-  spc_ap_placement_totals <- a %>%
-    #filter(time_period == time_identifier) %>%
+  spc_ap_placement_totals <- spc_ap_placement %>%
+    filter(time_period == !!time_identifier) %>%
     group_by(geographic_level) %>%
     summarise(count = sum(!!sym(d), na.rm = T))
   
   spc_ap_placement_totals_regions <- a %>%
-    #filter(time_period == time_identifier) %>%
+    filter(time_period == !!time_identifier) %>%
     filter(region_name != "",la_name != "") %>%
     group_by(region_name) %>%
     summarise(count = sum(!!sym(d), na.rm = T)) %>%
@@ -19,7 +19,7 @@ if( b=="") {
     mutate(geographic_level = "Regional")
   
   spc_ap_placement_totals_la <- a %>%
-    #filter(time_period == time_identifier) %>%
+    filter(time_period == !!time_identifier) %>%
     filter(region_name != "",la_name != "") %>%
     group_by(la_name) %>%
     summarise(count = sum(!!sym(d), na.rm = T)) %>%
@@ -27,13 +27,13 @@ if( b=="") {
     mutate(geographic_level = "Local authority")
   
   spc_ap_placement_totals_region_ind <- a %>%
-    #filter(time_period == time_identifier) %>%
+    filter(time_period == !!time_identifier) %>%
     filter(region_name != "", la_name != "") %>%
     group_by(region_name) %>%
     summarise(count = sum(!!sym(d), na.rm = T))
   
   spc_ap_placement_totals_la_ind <- a %>%
-    #filter(time_period == time_identifier) %>%
+    filter(time_period == !!time_identifier) %>%
     filter(region_name != "", la_name != "") %>%
     group_by(region_name,la_name) %>%
     summarise(count = sum(!!sym(d), na.rm = T)) %>%
@@ -53,12 +53,13 @@ if( b=="") {
   
 #Alternative provision placements
 spc_ap_placement_totals <- a %>%
-  #filter(time_period == time_identifier) %>%
+  filter(time_period == !!time_identifier) %>%
   group_by(geographic_level, !!sym(b)) %>%
+  filter(b !="Total") %>%
   summarise(count = sum(!!sym(d), na.rm = T))
 
 spc_ap_placement_totals_regions <- a %>%
-  #filter(time_period == time_identifier) %>%
+  filter(time_period == !!time_identifier) %>%
   filter(region_name != "",la_name != "") %>%
   group_by(region_name, !!sym(b)) %>%
   summarise(count = sum(!!sym(d), na.rm = T)) %>%
@@ -67,7 +68,7 @@ spc_ap_placement_totals_regions <- a %>%
   mutate(geographic_level = "Regional")
 
 spc_ap_placement_totals_la <- a %>%
-  #filter(time_period == time_identifier) %>%
+  filter(time_period == !!time_identifier) %>%
   filter(region_name != "",la_name != "") %>%
   group_by(la_name, !!sym(b)) %>%
   summarise(count = sum(!!sym(d), na.rm = T)) %>%
@@ -76,13 +77,13 @@ spc_ap_placement_totals_la <- a %>%
   mutate(geographic_level = "Local authority")
 
 spc_ap_placement_totals_region_ind <- a %>%
-  #filter(time_period == time_identifier) %>%
+  filter(time_period == !!time_identifier) %>%
   filter(region_name != "", la_name != "") %>%
   group_by(region_name, !!sym(b)) %>%
   summarise(count = sum(!!sym(d), na.rm = T))
 
 spc_ap_placement_totals_la_ind <- a %>%
-  #filter(time_period == time_identifier) %>%
+  filter(time_period == !!time_identifier) %>%
   filter(region_name != "", la_name != "") %>%
   group_by(region_name,la_name, !!sym(b)) %>%
   summarise(count = sum(!!sym(d), na.rm = T)) %>%

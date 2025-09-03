@@ -1,182 +1,198 @@
 # Calculates totals for the SPC publication data files
-test_summarise = function(a, b, c, d) {
+test_summarise = function(a, b, c, d,e) {
 #Nathan
   
 if( b=="") {
 
+  
   #Alternative provision placements
-  spc_ap_placement_totals <- spc_ap_placement %>%
+  geographic_totals <- a %>%
     filter(time_period == !!time_identifier) %>%
+    filter(if_all(e, ~ .x == "Total")) %>%
     group_by(geographic_level) %>%
     summarise(count = sum(!!sym(d), na.rm = T))
   
-  spc_ap_placement_totals_regions <- a %>%
+  regional_totals <- a %>%
     filter(time_period == !!time_identifier) %>%
     filter(region_name != "",la_name != "") %>%
+    filter(if_all(e, ~ .x == "Total")) %>%
     group_by(region_name) %>%
     summarise(count = sum(!!sym(d), na.rm = T)) %>%
     summarise(region_total = sum(count)) %>%
     mutate(geographic_level = "Regional")
   
-  spc_ap_placement_totals_la <- a %>%
+  la_totals <- a %>%
     filter(time_period == !!time_identifier) %>%
     filter(region_name != "",la_name != "") %>%
+    filter(if_all(e, ~ .x == "Total")) %>%
     group_by(la_name) %>%
     summarise(count = sum(!!sym(d), na.rm = T)) %>%
     summarise(la_total = sum(count)) %>%
     mutate(geographic_level = "Local authority")
   
-  spc_ap_placement_totals_region_ind <- a %>%
+  individual_region_totals <- a %>%
     filter(time_period == !!time_identifier) %>%
     filter(region_name != "", la_name != "") %>%
+    filter(if_all(e, ~ .x == "Total")) %>%
     group_by(region_name) %>%
     summarise(count = sum(!!sym(d), na.rm = T))
   
-  spc_ap_placement_totals_la_ind <- a %>%
+  individual_la_totals <- a %>%
     filter(time_period == !!time_identifier) %>%
     filter(region_name != "", la_name != "") %>%
+    filter(if_all(e, ~ .x == "Total")) %>%
     group_by(region_name,la_name) %>%
     summarise(count = sum(!!sym(d), na.rm = T)) %>%
     group_by(region_name) %>%
     summarise(la_region_total = sum(count))
   
-  spc_ap_placement_totals_region_comparison <- spc_ap_placement_totals_region_ind %>%
-    left_join(spc_ap_placement_totals_la_ind, by = c("region_name"))
+  region_comparison_totals <- individual_region_totals %>%
+    left_join(individual_la_totals, by = c("region_name"))
   
   
-  spc_ap_placement_totals_national_comparison <- spc_ap_placement_totals %>%
-    left_join(spc_ap_placement_totals_regions, by = "geographic_level") %>%
-    left_join(spc_ap_placement_totals_la, by = "geographic_level")
+  national_comparison_totals <- geographic_totals %>%
+    left_join(regional_totals, by = "geographic_level") %>%
+    left_join(la_totals, by = "geographic_level")
   
 }
   else {
   
 #Alternative provision placements
-spc_ap_placement_totals <- a %>%
+geographic_totals <- a %>%
   filter(time_period == !!time_identifier) %>%
   group_by(geographic_level, !!sym(b)) %>%
   filter(b !="Total") %>%
+  filter(if_all(e, ~ .x == "Total")) %>%
   summarise(count = sum(!!sym(d), na.rm = T))
 
-spc_ap_placement_totals_regions <- a %>%
+regional_totals <- a %>%
   filter(time_period == !!time_identifier) %>%
   filter(region_name != "",la_name != "") %>%
+  filter(if_all(e, ~ .x == "Total"),
+         b != "Total") %>%
   group_by(region_name, !!sym(b)) %>%
   summarise(count = sum(!!sym(d), na.rm = T)) %>%
   group_by(!!sym(b)) %>%
   summarise(region_total = sum(count)) %>%
   mutate(geographic_level = "Regional")
 
-spc_ap_placement_totals_la <- a %>%
+la_totals <- a %>%
   filter(time_period == !!time_identifier) %>%
   filter(region_name != "",la_name != "") %>%
+  filter(if_all(e, ~ .x == "Total"),
+         b != "Total") %>%
   group_by(la_name, !!sym(b)) %>%
   summarise(count = sum(!!sym(d), na.rm = T)) %>%
   group_by(!!sym(b)) %>%
   summarise(la_total = sum(count)) %>%
   mutate(geographic_level = "Local authority")
 
-spc_ap_placement_totals_region_ind <- a %>%
+individual_region_totals <- a %>%
   filter(time_period == !!time_identifier) %>%
   filter(region_name != "", la_name != "") %>%
+  filter(if_all(e, ~ .x == "Total"),
+         b != "Total") %>%
   group_by(region_name, !!sym(b)) %>%
   summarise(count = sum(!!sym(d), na.rm = T))
 
-spc_ap_placement_totals_la_ind <- a %>%
+individual_la_totals <- a %>%
   filter(time_period == !!time_identifier) %>%
   filter(region_name != "", la_name != "") %>%
+  filter(if_all(e, ~ .x == "Total"),
+         b != "Total") %>%
   group_by(region_name,la_name, !!sym(b)) %>%
   summarise(count = sum(!!sym(d), na.rm = T)) %>%
   group_by(region_name, !!sym(b)) %>%
   summarise(la_region_total = sum(count))
 
-spc_ap_placement_totals_region_comparison <- spc_ap_placement_totals_region_ind %>%
-  left_join(spc_ap_placement_totals_la_ind, by = c("region_name", b))
+region_comparison_totals <- individual_region_totals %>%
+  left_join(individual_la_totals, by = c("region_name", b))
   
 
-spc_ap_placement_totals_national_comparison <- spc_ap_placement_totals %>%
-  left_join(spc_ap_placement_totals_regions, by = c("geographic_level", b)) %>%
-  left_join(spc_ap_placement_totals_la, by = c("geographic_level", b))
+national_comparison_totals <- geographic_totals %>%
+  left_join(regional_totals, by = c("geographic_level", b)) %>%
+  left_join(la_totals, by = c("geographic_level", b))
 
 }
 
 
-assign(paste0("regional_comparison",c), spc_ap_placement_totals_region_comparison, envir = .GlobalEnv)
-assign(paste0("national_comparison", c), spc_ap_placement_totals_national_comparison, envir = .GlobalEnv)
+assign(paste0("regional_comparison_",c), region_comparison_totals, envir = .GlobalEnv)
+assign(paste0("national_comparison_", c), national_comparison_totals, envir = .GlobalEnv)
 
 }
 
-#
-test_summarise(spc_ap_placement,"", "ap_placement_total", "number_of_pupils")
-test_summarise(spc_ap_placement, "sex", "ap_placement_sex", "number_of_pupils")
-test_summarise(spc_ap_placement, "age", "ap_placement_age", "number_of_pupils")
-test_summarise(spc_ap_placement, "fsm", "ap_placement_fsm", "number_of_pupils")
-test_summarise(spc_ap_placement, "ethnicity_minor", "ap_placement_ethnicity", "number_of_pupils")
+#ap placement comparisons
+dataset = spc_ap_placement
+variables = c("age","fsm","sex","ethnicity_minor")
 
-test <- spc_ap_placement %>%
-  group_by(sex) %>%
-  summarise(count = n() )
-#Free school meals - ethnitiy & year group
-spc_pupil_fsm 
+for (i in variables) {
+  grouping_vars <- setdiff(variables, i)
+  test_summarise(dataset, i, paste0("ap_placement_",i), "number_of_pupils", grouping_vars)
+}
+test_summarise(dataset,"", "ap_placement_total", "number_of_pupils", variables)
 
-#Universal infanct free school meals
-spc_uifsm 
 
-#Young carers
-spc_young_carers 
+#pupil fsm comparisons
+names(spc_pupil_fsm)
+dataset = spc_pupil_fsm
+variables = c("phase_type_grouping","characteristic_group","characteristic")
 
-#Alternative provision characteristics
-spc_ap_chars 
+for (i in variables) {
+  grouping_vars <- setdiff(variables, i)
+  test_summarise(dataset, i, paste0("pupil_fsm_",i), "number_of_pupils", grouping_vars)
+}
+test_summarise(dataset, "", "pupil_fsm_total", "number_of_pupils", variables)
 
-#Alternative provision placement
-sp_ap_placement 
 
-#School characteristics
-spc_school_chars 
 
 
 #Alternative provision placements
-spc_ap_placement_totals <- spc_ap_placement %>%
-  #filter(time_period == time_identifier) %>%
-  group_by(geographic_level, sex) %>%
-  summarise(count = sum(!!sym(d), na.rm = T))
+geographic_totals <- spc_pupil_fsm %>%
+  filter(time_period == !!time_identifier) %>%
+  filter(if_all(variables, ~ .x == "Total")) %>%
+  group_by(geographic_level) %>%
+  summarise(count = sum(number_of_pupils, na.rm = T))
 
-spc_ap_placement_totals_regions <- spc_ap_placement %>%
-  #filter(time_period == time_identifier) %>%
+regional_totals <- spc_pupil_fsm %>%
+  filter(time_period == !!time_identifier) %>%
   filter(region_name != "",la_name != "") %>%
-  group_by(region_name, sex) %>%
-  summarise(count = sum(!!sym(d), na.rm = T)) %>%
+  filter(if_all(variables, ~ .x == "Total")) %>%
+  group_by(region_name) %>%
+  summarise(count = sum(number_of_pupils, na.rm = T)) %>%
   summarise(region_total = sum(count)) %>%
   mutate(geographic_level = "Regional")
 
-spc_ap_placement_totals_la <- spc_ap_placement %>%
-  #filter(time_period == time_identifier) %>%
+la_totals <- spc_pupil_fsm %>%
+  filter(time_period == !!time_identifier) %>%
   filter(region_name != "",la_name != "") %>%
-  group_by(la_name, sex) %>%
-  summarise(count = sum(!!sym(d), na.rm = T)) %>%
-
+  filter(if_all(variables, ~ .x == "Total")) %>%
+  group_by(la_name) %>%
+  summarise(count = sum(number_of_pupils, na.rm = T)) %>%
   summarise(la_total = sum(count)) %>%
   mutate(geographic_level = "Local authority")
 
-spc_ap_placement_totals_region_ind <- spc_ap_placement %>%
-  #filter(time_period == time_identifier) %>%
+individual_region_totals <- spc_pupil_fsm %>%
+  filter(time_period == !!time_identifier) %>%
   filter(region_name != "", la_name != "") %>%
-  group_by(region_name, sex) %>%
-  summarise(count = sum(!!sym(d), na.rm = T))
+  filter(if_all(variables, ~ .x == "Total")) %>%
+  group_by(region_name) %>%
+  summarise(count = sum(number_of_pupils, na.rm = T))
 
-spc_ap_placement_totals_la_ind <- spc_ap_placement %>%
-  #filter(time_period == time_identifier) %>%
+individual_la_totals <- spc_pupil_fsm %>%
+  filter(time_period == !!time_identifier) %>%
   filter(region_name != "", la_name != "") %>%
-  group_by(region_name,la_name, sex) %>%
-  summarise(count = sum(!!sym(d), na.rm = T)) %>%
-  group_by(region_name, sex) %>%
+  filter(if_all(variables, ~ .x == "Total")) %>%
+  group_by(region_name,la_name) %>%
+  summarise(count = sum(number_of_pupils, na.rm = T)) %>%
+  group_by(region_name) %>%
   summarise(la_region_total = sum(count))
 
-spc_ap_placement_totals_region_comparison <- spc_ap_placement_totals_region_ind %>%
-  left_join(spc_ap_placement_totals_la_ind, by = c("region_name", "sex"))
+region_comparison_totals <- individual_region_totals %>%
+  left_join(individual_la_totals, by = c("region_name"))
 
 
-spc_ap_placement_totals_national_comparison <- spc_ap_placement_totals %>%
-  left_join(spc_ap_placement_totals_regions, by = c("geographic_level", "sex")) %>%
-  left_join(spc_ap_placement_totals_la, by = c("geographic_level", "sex"))
+national_comparison_totals <- geographic_totals %>%
+  left_join(regional_totals, by = "geographic_level") %>%
+  left_join(la_totals, by = "geographic_level")
+
 

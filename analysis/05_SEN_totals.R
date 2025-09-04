@@ -13,7 +13,7 @@ sen_age_sex_long <- sen_age_sex %>%
     # Only pivot columns that start with male_age_ or female_age_
     cols = matches("^(male|female)_age_"),
     names_to = "variable",
-    values_to = "total"
+    values_to = "number_of_pupils"
   ) %>%
   mutate(
     sex = case_when(
@@ -29,27 +29,25 @@ sen_age_sex_long <- sen_age_sex %>%
   select(time_period:pupil_sex_female, sex, age, total)
 
 
-test <- long_df %>% 
-  filter(time_period == 202324, sen_status == 'Total', sen_primary_need == 'Total', geographic_level == 'National', phase_type_grouping == 'Total') 
-View(test)
-
-
-
 
 
 ## Pivot for ethnicity
 
 # Select relevant columns
-cols_to_pivot <- names(sen_fsm_eth_lang)[str_detect(names(sen_fsm_eth_lang), "^(fsm|ethnicity|language)_") & 
-                             !str_detect(names(sen_fsm_eth_lang), "_percent$")]
+cols_to_pivot <- c(
+  names(sen_fsm_eth_lang)[str_detect(names(sen_fsm_eth_lang), "^(fsm|ethnicity|language)_") & 
+                            !str_detect(names(sen_fsm_eth_lang), "_percent$")],
+  "Total"
+)
 
 # Pivot longer
 sen_fsm_eth_lang_long <- sen_fsm_eth_lang %>%
+  rename("Total" = "number_of_pupils") %>%
+  select(-ends_with("_percent")) %>%
   pivot_longer(
     cols = all_of(cols_to_pivot),
-    names_to = c("category", "sub_category"),
-    names_sep = "_",
-    values_to = "value"
+    names_to = c("category"),
+    values_to = "number_of_pupils"
   ) 
 
 
@@ -57,7 +55,7 @@ sen_fsm_eth_lang_long <- sen_fsm_eth_lang %>%
 
 sen_year_long <- sen_year %>%
   select(time_period:nc_not_followed) %>%
-  rename("nc_total" = "number_of_pupils") %>%
+  rename("nc_Total" = "number_of_pupils") %>%
   pivot_longer(cols = starts_with("nc_"), 
                names_to = "nc_year", 
                values_to = "number_of_pupils") %>%
@@ -376,6 +374,7 @@ test_summarise = function(a, b, c, d,e) {
 }
 
 #sen year
+
 dataset = sen_year_long
 variables = c("phase_type_grouping","sen_status","sen_primary_need","nc_year")
 
@@ -386,14 +385,36 @@ for (i in variables) {
 test_summarise(dataset,"", "sen_year_total", "number_of_pupils", variables)
 
 
-#pupil fsm comparisons
-names(spc_pupil_fsm)
-dataset = spc_pupil_fsm
-variables = c("phase_type_grouping","characteristic_group","characteristic")
+# age sex 
+
+dataset = sen_age_sex_long_MR 
+variables = c("phase_type_grouping","sen_status","sen_primary_need","sex", "age")
 
 for (i in variables) {
   grouping_vars <- setdiff(variables, i)
-  test_summarise(dataset, i, paste0("pupil_fsm_",i), "number_of_pupils", grouping_vars)
+  test_summarise(dataset, i, paste0("sex_age_",i), "number_of_pupils", grouping_vars)
 }
-test_summarise(dataset, "", "pupil_fsm_total", "number_of_pupils", variables)
+test_summarise(dataset, "", "sex_age_total", "number_of_pupils", variables)
+
+# age sex 2
+
+dataset = sen_age_sex_long
+variables = c("phase_type_grouping","sen_status","sen_primary_need")
+
+for (i in variables) {
+  grouping_vars <- setdiff(variables, i)
+  test_summarise(dataset, i, paste0("sex_age_2_",i), "number_of_pupils", grouping_vars)
+}
+test_summarise(dataset, "", "sex_age_total", "number_of_pupils", variables)
+
+# eth lang
+
+dataset = sen_fsm_eth_lang_long
+variables = c("phase_type_grouping","sen_status","sen_primary_need", "category")
+
+for (i in variables) {
+  grouping_vars <- setdiff(variables, i)
+  test_summarise(dataset, i, paste0("fsm_eth_lang_",i), "number_of_pupils", grouping_vars)
+}
+test_summarise(dataset, "", "fsm_eth_lang_total", "number_of_pupils", variables)
 

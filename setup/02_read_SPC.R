@@ -80,7 +80,67 @@ spc_ap_placement <- read.csv("https://explore-education-statistics.service.gov.u
 
 #spc_school_characteristics.csv
 spc_school_chars <- read.csv("https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/9556adc9-c5f3-4b9c-af2e-01e2a5e5901e/csv") %>%
-  clean_names()
+  clean_names() 
+
+# add the below once totals are added to age, full_part and sex
+
+#%>%
+  # filter(time_period == 202425) %>%
+  # pivot_longer(
+  #   cols = c(contains("_aged_")),
+  #   names_to = "variable",
+  #   values_to = "total"
+  # )  %>%
+  # mutate(full_part = case_when(
+  #   str_detect(variable, "^part") ~ "part_time",
+  #   str_detect(variable, "^full") ~ "full_time",
+  #   TRUE ~ "Check"
+  # )) %>%
+  # mutate(
+  #   sex = case_when(
+  #     str_detect(variable, "female_") ~ "female",
+  #     str_detect(variable, "male_") ~ "male",
+  #     TRUE ~ "Total"
+  #   )) %>%
+  # mutate(variable = case_when(
+  #   str_detect(variable, "^part_time_female_") ~ str_remove(variable, "^part_time_female_"),
+  #   str_detect(variable, "^full_time_female_") ~ str_remove(variable, "^full_time_female_"),
+  #   str_detect(variable, "^part_time_male_") ~ str_remove(variable, "^part_time_male_"),
+  #   str_detect(variable, "^full_time_male_") ~ str_remove(variable, "^full_time_male_"),
+  #   TRUE ~ "Total"
+  # )) %>%
+  # mutate(
+  #   age = case_when(
+  #     str_detect(variable, "aged_") ~ str_extract(variable, "\\d+"),
+  #     TRUE ~ variable
+  #   )
+  # )
+
+# #create total rows for lunch taken
+# spc_school_chars_age_totals <- spc_school_chars %>%
+#   group_by(across(-c(age, number_of_pupils, denominator, percent_of_pupils))) %>%
+#   summarise(number_of_pupils = sum(number_of_pupils, na.rm = T)) %>%
+#   mutate(young_carer = "Total",
+#          denominator = NA,
+#          percent_of_pupils = NA)
+# 
+# #create total rows for lunch taken
+# spc_school_chars_full_part_totals <- spc_school_chars %>%
+#   group_by(across(-c(young_carer, number_of_pupils, denominator, percent_of_pupils))) %>%
+#   summarise(number_of_pupils = sum(number_of_pupils, na.rm = T)) %>%
+#   mutate(young_carer = "Total",
+#          denominator = NA,
+#          percent_of_pupils = NA)
+# 
+# #create total rows for lunch taken
+# spc_school_chars_sex_totals <- spc_school_chars %>%
+#   group_by(across(-c(young_carer, number_of_pupils, denominator, percent_of_pupils))) %>%
+#   summarise(number_of_pupils = sum(number_of_pupils, na.rm = T)) %>%
+#   mutate(young_carer = "Total",
+#          denominator = NA,
+#          percent_of_pupils = NA)
+
+
 
 #spc_pupils_age_and_sex.csv
 spc_age_and_sex <- read.csv("https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/77d37133-ab0e-4428-aa62-9aae5bfdfd73/csv") %>% 

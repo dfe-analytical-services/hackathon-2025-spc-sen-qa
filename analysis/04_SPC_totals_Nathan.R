@@ -1,8 +1,9 @@
 # Calculates totals for the SPC publication data files
+
+
 test_summarise = function(a, b, c, d, e) {
-#Nathan
   
-if( b=="") { # if no grouping variable is provided it calculates the overal total across all variables
+if( b=="") { # if no grouping variable is provided it calculates the overall total across all variables
 
   #calculates national totals from national geographic grouping
   national_totals <- a %>%
@@ -67,33 +68,6 @@ if( b=="") { # if no grouping variable is provided it calculates the overal tota
   )
   
   
-  
-  # 
-  # 
-  # individual_region_totals <- a %>%
-  #   filter(time_period == !!time_identifier) %>%
-  #   filter(region_name != "", la_name != "") %>%
-  #   filter(if_all(e, ~ .x == "Total")) %>%
-  #   group_by(region_name) %>%
-  #   summarise(count = sum(!!sym(d), na.rm = T))
-  # 
-  # individual_la_totals <- a %>%
-  #   filter(time_period == !!time_identifier) %>%
-  #   filter(region_name != "", la_name != "") %>%
-  #   filter(if_all(e, ~ .x == "Total")) %>%
-  #   group_by(region_name,la_name) %>%
-  #   summarise(count = sum(!!sym(d), na.rm = T)) %>%
-  #   group_by(region_name) %>%
-  #   summarise(la_region_total = sum(count))
-  
-  # region_comparison_totals <- individual_region_totals %>%
-  #   left_join(individual_la_totals, by = c("region_name"))
-  # 
-  # 
-  # national_comparison_totals <- geographic_totals %>%
-  #   left_join(regional_totals, by = "geographic_level") %>%
-  #   left_join(la_totals, by = "geographic_level")
-
 }
   else {  # if a grouping variable is provided it calculates the total for each value in that grouping variable
   
@@ -166,38 +140,6 @@ comparison_summary <- case_when(
 
 
 
-  
-  
- 
-# individual_region_totals <- a %>%
-#   filter(time_period == !!time_identifier) %>%
-#   filter(region_name != "", la_name != "") %>%
-#   filter(if_all(e, ~ .x == "Total"),
-#          b != "Total") %>%
-#   group_by(region_name, !!sym(b)) %>%
-#   summarise(count = sum(!!sym(d), na.rm = T))
-# 
-# individual_la_totals <- a %>%
-#   filter(time_period == !!time_identifier) %>%
-#   filter(region_name != "", la_name != "") %>%
-#   filter(if_all(e, ~ .x == "Total"),
-#          b != "Total") %>%
-#   group_by(region_name,la_name, !!sym(b)) %>%
-#   summarise(count = sum(!!sym(d), na.rm = T)) %>%
-#   group_by(region_name, !!sym(b)) %>%
-#   summarise(la_region_total = sum(count))
-
-
-
-
-
-# region_comparison_totals <- individual_region_totals %>%
-#   left_join(individual_la_totals, by = c("region_name", b))
-#   
-# 
-# national_comparison_totals <- geographic_totals %>%
-#   left_join(regional_totals, by = c("geographic_level", b)) %>%
-#   left_join(la_totals, by = c("geographic_level", b))
 
 }
   
@@ -386,3 +328,29 @@ for (i in variables) {
   test_summarise(dataset, i, paste0("spc_ethnicity_language_",i), "headcount", grouping_vars)
 }
 test_summarise(dataset, "", "spc_ethnicity_language_total", "headcount", variables)
+
+
+
+
+
+#Create a summary table of matches and mismatches across datasets and grouped variables
+summary_vars <- ls(pattern = "^internal_summary_")
+
+# Retrieve their values
+summary_list <- mget(summary_vars, envir = .GlobalEnv)
+
+# Combine them into one data frame (assuming they are vectors or data frames with same structure)
+combined_summary <- bind_rows(summary_list, .id = "source") %>%
+  t() %>%
+  data.frame() %>%
+  rename(Internal_comparison_result = ".") %>%
+  mutate(Source_and_grouping = sub("^internal_summary_", "", rownames(.)))
+
+row.names(combined_summary) <- NULL
+
+
+#write out data
+write.csv(combined_summary, "./output/SPC_combined_summary.csv")
+write.csv(national_total_spc_ap_census_age, "./output/national_total_spc_ap_census_age.csv")
+write.csv(regional_total_spc_ap_census_age, "./output/regional_total_spc_ap_census_age.csv")
+write.csv(la_total_spc_ap_census_age, "./output/la_total_spc_ap_census_age.csv")

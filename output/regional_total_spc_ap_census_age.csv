@@ -1,0 +1,181 @@
+"","region_name","age","region_total"
+"1","East Midlands","Age 0",0
+"2","East Midlands","Age 1",1
+"3","East Midlands","Age 10",171
+"4","East Midlands","Age 11",312
+"5","East Midlands","Age 12",465
+"6","East Midlands","Age 13",614
+"7","East Midlands","Age 14",681
+"8","East Midlands","Age 15",758
+"9","East Midlands","Age 16",587
+"10","East Midlands","Age 17",449
+"11","East Midlands","Age 18",259
+"12","East Midlands","Age 19 plus",156
+"13","East Midlands","Age 2",0
+"14","East Midlands","Age 3",1
+"15","East Midlands","Age 4",12
+"16","East Midlands","Age 5",30
+"17","East Midlands","Age 6",56
+"18","East Midlands","Age 7",89
+"19","East Midlands","Age 8",117
+"20","East Midlands","Age 9",152
+"21","East of England","Age 0",0
+"22","East of England","Age 1",0
+"23","East of England","Age 10",315
+"24","East of England","Age 11",495
+"25","East of England","Age 12",626
+"26","East of England","Age 13",840
+"27","East of England","Age 14",1076
+"28","East of England","Age 15",1097
+"29","East of England","Age 16",464
+"30","East of England","Age 17",330
+"31","East of England","Age 18",165
+"32","East of England","Age 19 plus",2
+"33","East of England","Age 2",0
+"34","East of England","Age 3",0
+"35","East of England","Age 4",22
+"36","East of England","Age 5",61
+"37","East of England","Age 6",95
+"38","East of England","Age 7",138
+"39","East of England","Age 8",209
+"40","East of England","Age 9",246
+"41","London","Age 0",0
+"42","London","Age 1",0
+"43","London","Age 10",370
+"44","London","Age 11",668
+"45","London","Age 12",728
+"46","London","Age 13",863
+"47","London","Age 14",1011
+"48","London","Age 15",1192
+"49","London","Age 16",858
+"50","London","Age 17",720
+"51","London","Age 18",495
+"52","London","Age 19 plus",328
+"53","London","Age 2",2
+"54","London","Age 3",7
+"55","London","Age 4",72
+"56","London","Age 5",126
+"57","London","Age 6",188
+"58","London","Age 7",273
+"59","London","Age 8",284
+"60","London","Age 9",355
+"61","North East","Age 0",0
+"62","North East","Age 1",0
+"63","North East","Age 10",83
+"64","North East","Age 11",142
+"65","North East","Age 12",222
+"66","North East","Age 13",315
+"67","North East","Age 14",363
+"68","North East","Age 15",419
+"69","North East","Age 16",248
+"70","North East","Age 17",198
+"71","North East","Age 18",165
+"72","North East","Age 19 plus",178
+"73","North East","Age 2",1
+"74","North East","Age 3",1
+"75","North East","Age 4",10
+"76","North East","Age 5",38
+"77","North East","Age 6",29
+"78","North East","Age 7",40
+"79","North East","Age 8",45
+"80","North East","Age 9",70
+"81","North West","Age 0",0
+"82","North West","Age 1",1
+"83","North West","Age 10",326
+"84","North West","Age 11",613
+"85","North West","Age 12",668
+"86","North West","Age 13",900
+"87","North West","Age 14",1059
+"88","North West","Age 15",1070
+"89","North West","Age 16",660
+"90","North West","Age 17",499
+"91","North West","Age 18",364
+"92","North West","Age 19 plus",77
+"93","North West","Age 2",2
+"94","North West","Age 3",6
+"95","North West","Age 4",44
+"96","North West","Age 5",110
+"97","North West","Age 6",176
+"98","North West","Age 7",180
+"99","North West","Age 8",244
+"100","North West","Age 9",284
+"101","South East","Age 0",0
+"102","South East","Age 1",0
+"103","South East","Age 10",579
+"104","South East","Age 11",1148
+"105","South East","Age 12",1270
+"106","South East","Age 13",1447
+"107","South East","Age 14",1532
+"108","South East","Age 15",1441
+"109","South East","Age 16",1093
+"110","South East","Age 17",985
+"111","South East","Age 18",651
+"112","South East","Age 19 plus",17
+"113","South East","Age 2",0
+"114","South East","Age 3",9
+"115","South East","Age 4",40
+"116","South East","Age 5",139
+"117","South East","Age 6",195
+"118","South East","Age 7",299
+"119","South East","Age 8",367
+"120","South East","Age 9",452
+"121","South West","Age 0",0
+"122","South West","Age 1",0
+"123","South West","Age 10",303
+"124","South West","Age 11",649
+"125","South West","Age 12",737
+"126","South West","Age 13",835
+"127","South West","Age 14",935
+"128","South West","Age 15",965
+"129","South West","Age 16",681
+"130","South West","Age 17",576
+"131","South West","Age 18",353
+"132","South West","Age 19 plus",0
+"133","South West","Age 2",4
+"134","South West","Age 3",6
+"135","South West","Age 4",32
+"136","South West","Age 5",71
+"137","South West","Age 6",85
+"138","South West","Age 7",172
+"139","South West","Age 8",193
+"140","South West","Age 9",251
+"141","West Midlands","Age 0",0
+"142","West Midlands","Age 1",0
+"143","West Midlands","Age 10",265
+"144","West Midlands","Age 11",457
+"145","West Midlands","Age 12",578
+"146","West Midlands","Age 13",772
+"147","West Midlands","Age 14",927
+"148","West Midlands","Age 15",998
+"149","West Midlands","Age 16",707
+"150","West Midlands","Age 17",554
+"151","West Midlands","Age 18",425
+"152","West Midlands","Age 19 plus",132
+"153","West Midlands","Age 2",0
+"154","West Midlands","Age 3",2
+"155","West Midlands","Age 4",29
+"156","West Midlands","Age 5",90
+"157","West Midlands","Age 6",126
+"158","West Midlands","Age 7",142
+"159","West Midlands","Age 8",171
+"160","West Midlands","Age 9",207
+"161","Yorkshire and The Humber","Age 0",0
+"162","Yorkshire and The Humber","Age 1",0
+"163","Yorkshire and The Humber","Age 10",110
+"164","Yorkshire and The Humber","Age 11",249
+"165","Yorkshire and The Humber","Age 12",363
+"166","Yorkshire and The Humber","Age 13",463
+"167","Yorkshire and The Humber","Age 14",593
+"168","Yorkshire and The Humber","Age 15",642
+"169","Yorkshire and The Humber","Age 16",408
+"170","Yorkshire and The Humber","Age 17",352
+"171","Yorkshire and The Humber","Age 18",189
+"172","Yorkshire and The Humber","Age 19 plus",180
+"173","Yorkshire and The Humber","Age 2",2
+"174","Yorkshire and The Humber","Age 3",2
+"175","Yorkshire and The Humber","Age 4",2
+"176","Yorkshire and The Humber","Age 5",17
+"177","Yorkshire and The Humber","Age 6",34
+"178","Yorkshire and The Humber","Age 7",78
+"179","Yorkshire and The Humber","Age 8",90
+"180","Yorkshire and The Humber","Age 9",101

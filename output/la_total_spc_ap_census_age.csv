@@ -1,0 +1,3061 @@
+"","la_name","age","la_total"
+"1","Barking and Dagenham","Age 0",0
+"2","Barking and Dagenham","Age 1",0
+"3","Barking and Dagenham","Age 10",7
+"4","Barking and Dagenham","Age 11",9
+"5","Barking and Dagenham","Age 12",7
+"6","Barking and Dagenham","Age 13",8
+"7","Barking and Dagenham","Age 14",13
+"8","Barking and Dagenham","Age 15",9
+"9","Barking and Dagenham","Age 16",17
+"10","Barking and Dagenham","Age 17",22
+"11","Barking and Dagenham","Age 18",18
+"12","Barking and Dagenham","Age 19 plus",0
+"13","Barking and Dagenham","Age 2",0
+"14","Barking and Dagenham","Age 3",0
+"15","Barking and Dagenham","Age 4",1
+"16","Barking and Dagenham","Age 5",1
+"17","Barking and Dagenham","Age 6",1
+"18","Barking and Dagenham","Age 7",0
+"19","Barking and Dagenham","Age 8",3
+"20","Barking and Dagenham","Age 9",4
+"21","Barnet","Age 0",0
+"22","Barnet","Age 1",0
+"23","Barnet","Age 10",9
+"24","Barnet","Age 11",23
+"25","Barnet","Age 12",28
+"26","Barnet","Age 13",26
+"27","Barnet","Age 14",20
+"28","Barnet","Age 15",26
+"29","Barnet","Age 16",16
+"30","Barnet","Age 17",7
+"31","Barnet","Age 18",5
+"32","Barnet","Age 19 plus",0
+"33","Barnet","Age 2",0
+"34","Barnet","Age 3",0
+"35","Barnet","Age 4",1
+"36","Barnet","Age 5",7
+"37","Barnet","Age 6",5
+"38","Barnet","Age 7",3
+"39","Barnet","Age 8",9
+"40","Barnet","Age 9",20
+"41","Barnsley","Age 0",0
+"42","Barnsley","Age 1",0
+"43","Barnsley","Age 10",17
+"44","Barnsley","Age 11",25
+"45","Barnsley","Age 12",41
+"46","Barnsley","Age 13",52
+"47","Barnsley","Age 14",54
+"48","Barnsley","Age 15",48
+"49","Barnsley","Age 16",23
+"50","Barnsley","Age 17",28
+"51","Barnsley","Age 18",11
+"52","Barnsley","Age 19 plus",0
+"53","Barnsley","Age 2",0
+"54","Barnsley","Age 3",1
+"55","Barnsley","Age 4",1
+"56","Barnsley","Age 5",5
+"57","Barnsley","Age 6",7
+"58","Barnsley","Age 7",27
+"59","Barnsley","Age 8",26
+"60","Barnsley","Age 9",23
+"61","Bath and North East Somerset","Age 0",0
+"62","Bath and North East Somerset","Age 1",0
+"63","Bath and North East Somerset","Age 10",4
+"64","Bath and North East Somerset","Age 11",24
+"65","Bath and North East Somerset","Age 12",18
+"66","Bath and North East Somerset","Age 13",25
+"67","Bath and North East Somerset","Age 14",34
+"68","Bath and North East Somerset","Age 15",28
+"69","Bath and North East Somerset","Age 16",21
+"70","Bath and North East Somerset","Age 17",16
+"71","Bath and North East Somerset","Age 18",19
+"72","Bath and North East Somerset","Age 19 plus",0
+"73","Bath and North East Somerset","Age 2",0
+"74","Bath and North East Somerset","Age 3",0
+"75","Bath and North East Somerset","Age 4",0
+"76","Bath and North East Somerset","Age 5",1
+"77","Bath and North East Somerset","Age 6",0
+"78","Bath and North East Somerset","Age 7",4
+"79","Bath and North East Somerset","Age 8",4
+"80","Bath and North East Somerset","Age 9",5
+"81","Bedford","Age 0",0
+"82","Bedford","Age 1",0
+"83","Bedford","Age 10",11
+"84","Bedford","Age 11",17
+"85","Bedford","Age 12",20
+"86","Bedford","Age 13",26
+"87","Bedford","Age 14",29
+"88","Bedford","Age 15",24
+"89","Bedford","Age 16",19
+"90","Bedford","Age 17",39
+"91","Bedford","Age 18",23
+"92","Bedford","Age 19 plus",0
+"93","Bedford","Age 2",0
+"94","Bedford","Age 3",0
+"95","Bedford","Age 4",1
+"96","Bedford","Age 5",4
+"97","Bedford","Age 6",2
+"98","Bedford","Age 7",9
+"99","Bedford","Age 8",6
+"100","Bedford","Age 9",13
+"101","Bexley","Age 0",0
+"102","Bexley","Age 1",0
+"103","Bexley","Age 10",5
+"104","Bexley","Age 11",10
+"105","Bexley","Age 12",16
+"106","Bexley","Age 13",17
+"107","Bexley","Age 14",32
+"108","Bexley","Age 15",41
+"109","Bexley","Age 16",35
+"110","Bexley","Age 17",25
+"111","Bexley","Age 18",18
+"112","Bexley","Age 19 plus",5
+"113","Bexley","Age 2",0
+"114","Bexley","Age 3",0
+"115","Bexley","Age 4",1
+"116","Bexley","Age 5",2
+"117","Bexley","Age 6",1
+"118","Bexley","Age 7",5
+"119","Bexley","Age 8",4
+"120","Bexley","Age 9",7
+"121","Birmingham","Age 0",0
+"122","Birmingham","Age 1",0
+"123","Birmingham","Age 10",29
+"124","Birmingham","Age 11",59
+"125","Birmingham","Age 12",65
+"126","Birmingham","Age 13",101
+"127","Birmingham","Age 14",135
+"128","Birmingham","Age 15",103
+"129","Birmingham","Age 16",158
+"130","Birmingham","Age 17",151
+"131","Birmingham","Age 18",142
+"132","Birmingham","Age 19 plus",0
+"133","Birmingham","Age 2",0
+"134","Birmingham","Age 3",0
+"135","Birmingham","Age 4",6
+"136","Birmingham","Age 5",14
+"137","Birmingham","Age 6",16
+"138","Birmingham","Age 7",11
+"139","Birmingham","Age 8",19
+"140","Birmingham","Age 9",21
+"141","Blackburn with Darwen","Age 0",0
+"142","Blackburn with Darwen","Age 1",0
+"143","Blackburn with Darwen","Age 10",10
+"144","Blackburn with Darwen","Age 11",16
+"145","Blackburn with Darwen","Age 12",19
+"146","Blackburn with Darwen","Age 13",13
+"147","Blackburn with Darwen","Age 14",11
+"148","Blackburn with Darwen","Age 15",13
+"149","Blackburn with Darwen","Age 16",1
+"150","Blackburn with Darwen","Age 17",2
+"151","Blackburn with Darwen","Age 18",2
+"152","Blackburn with Darwen","Age 19 plus",0
+"153","Blackburn with Darwen","Age 2",0
+"154","Blackburn with Darwen","Age 3",0
+"155","Blackburn with Darwen","Age 4",0
+"156","Blackburn with Darwen","Age 5",2
+"157","Blackburn with Darwen","Age 6",5
+"158","Blackburn with Darwen","Age 7",4
+"159","Blackburn with Darwen","Age 8",7
+"160","Blackburn with Darwen","Age 9",5
+"161","Blackpool","Age 0",0
+"162","Blackpool","Age 1",0
+"163","Blackpool","Age 10",7
+"164","Blackpool","Age 11",20
+"165","Blackpool","Age 12",26
+"166","Blackpool","Age 13",23
+"167","Blackpool","Age 14",36
+"168","Blackpool","Age 15",34
+"169","Blackpool","Age 16",27
+"170","Blackpool","Age 17",16
+"171","Blackpool","Age 18",5
+"172","Blackpool","Age 19 plus",21
+"173","Blackpool","Age 2",0
+"174","Blackpool","Age 3",0
+"175","Blackpool","Age 4",0
+"176","Blackpool","Age 5",0
+"177","Blackpool","Age 6",1
+"178","Blackpool","Age 7",6
+"179","Blackpool","Age 8",6
+"180","Blackpool","Age 9",7
+"181","Bolton","Age 0",0
+"182","Bolton","Age 1",0
+"183","Bolton","Age 10",18
+"184","Bolton","Age 11",13
+"185","Bolton","Age 12",20
+"186","Bolton","Age 13",33
+"187","Bolton","Age 14",51
+"188","Bolton","Age 15",80
+"189","Bolton","Age 16",26
+"190","Bolton","Age 17",15
+"191","Bolton","Age 18",17
+"192","Bolton","Age 19 plus",0
+"193","Bolton","Age 2",0
+"194","Bolton","Age 3",0
+"195","Bolton","Age 4",1
+"196","Bolton","Age 5",3
+"197","Bolton","Age 6",7
+"198","Bolton","Age 7",4
+"199","Bolton","Age 8",5
+"200","Bolton","Age 9",5
+"201","Bournemouth, Christchurch and Poole","Age 0",0
+"202","Bournemouth, Christchurch and Poole","Age 1",0
+"203","Bournemouth, Christchurch and Poole","Age 10",39
+"204","Bournemouth, Christchurch and Poole","Age 11",58
+"205","Bournemouth, Christchurch and Poole","Age 12",77
+"206","Bournemouth, Christchurch and Poole","Age 13",89
+"207","Bournemouth, Christchurch and Poole","Age 14",111
+"208","Bournemouth, Christchurch and Poole","Age 15",117
+"209","Bournemouth, Christchurch and Poole","Age 16",92
+"210","Bournemouth, Christchurch and Poole","Age 17",61
+"211","Bournemouth, Christchurch and Poole","Age 18",61
+"212","Bournemouth, Christchurch and Poole","Age 19 plus",0
+"213","Bournemouth, Christchurch and Poole","Age 2",1
+"214","Bournemouth, Christchurch and Poole","Age 3",3
+"215","Bournemouth, Christchurch and Poole","Age 4",11
+"216","Bournemouth, Christchurch and Poole","Age 5",25
+"217","Bournemouth, Christchurch and Poole","Age 6",36
+"218","Bournemouth, Christchurch and Poole","Age 7",35
+"219","Bournemouth, Christchurch and Poole","Age 8",28
+"220","Bournemouth, Christchurch and Poole","Age 9",37
+"221","Bracknell Forest","Age 0",0
+"222","Bracknell Forest","Age 1",0
+"223","Bracknell Forest","Age 10",0
+"224","Bracknell Forest","Age 11",1
+"225","Bracknell Forest","Age 12",1
+"226","Bracknell Forest","Age 13",2
+"227","Bracknell Forest","Age 14",7
+"228","Bracknell Forest","Age 15",9
+"229","Bracknell Forest","Age 16",8
+"230","Bracknell Forest","Age 17",1
+"231","Bracknell Forest","Age 18",1
+"232","Bracknell Forest","Age 19 plus",0
+"233","Bracknell Forest","Age 2",0
+"234","Bracknell Forest","Age 3",1
+"235","Bracknell Forest","Age 4",0
+"236","Bracknell Forest","Age 5",0
+"237","Bracknell Forest","Age 6",0
+"238","Bracknell Forest","Age 7",1
+"239","Bracknell Forest","Age 8",1
+"240","Bracknell Forest","Age 9",4
+"241","Bradford","Age 0",0
+"242","Bradford","Age 1",0
+"243","Bradford","Age 10",4
+"244","Bradford","Age 11",5
+"245","Bradford","Age 12",13
+"246","Bradford","Age 13",36
+"247","Bradford","Age 14",63
+"248","Bradford","Age 15",71
+"249","Bradford","Age 16",33
+"250","Bradford","Age 17",45
+"251","Bradford","Age 18",12
+"252","Bradford","Age 19 plus",0
+"253","Bradford","Age 2",0
+"254","Bradford","Age 3",0
+"255","Bradford","Age 4",0
+"256","Bradford","Age 5",2
+"257","Bradford","Age 6",0
+"258","Bradford","Age 7",1
+"259","Bradford","Age 8",4
+"260","Bradford","Age 9",4
+"261","Brent","Age 0",0
+"262","Brent","Age 1",0
+"263","Brent","Age 10",6
+"264","Brent","Age 11",12
+"265","Brent","Age 12",8
+"266","Brent","Age 13",21
+"267","Brent","Age 14",44
+"268","Brent","Age 15",60
+"269","Brent","Age 16",18
+"270","Brent","Age 17",19
+"271","Brent","Age 18",9
+"272","Brent","Age 19 plus",7
+"273","Brent","Age 2",0
+"274","Brent","Age 3",0
+"275","Brent","Age 4",0
+"276","Brent","Age 5",0
+"277","Brent","Age 6",2
+"278","Brent","Age 7",8
+"279","Brent","Age 8",3
+"280","Brent","Age 9",12
+"281","Brighton and Hove","Age 0",0
+"282","Brighton and Hove","Age 1",0
+"283","Brighton and Hove","Age 10",8
+"284","Brighton and Hove","Age 11",22
+"285","Brighton and Hove","Age 12",22
+"286","Brighton and Hove","Age 13",30
+"287","Brighton and Hove","Age 14",25
+"288","Brighton and Hove","Age 15",26
+"289","Brighton and Hove","Age 16",18
+"290","Brighton and Hove","Age 17",15
+"291","Brighton and Hove","Age 18",4
+"292","Brighton and Hove","Age 19 plus",0
+"293","Brighton and Hove","Age 2",0
+"294","Brighton and Hove","Age 3",0
+"295","Brighton and Hove","Age 4",3
+"296","Brighton and Hove","Age 5",1
+"297","Brighton and Hove","Age 6",0
+"298","Brighton and Hove","Age 7",1
+"299","Brighton and Hove","Age 8",2
+"300","Brighton and Hove","Age 9",4
+"301","Bristol, City of","Age 0",0
+"302","Bristol, City of","Age 1",0
+"303","Bristol, City of","Age 10",19
+"304","Bristol, City of","Age 11",55
+"305","Bristol, City of","Age 12",54
+"306","Bristol, City of","Age 13",48
+"307","Bristol, City of","Age 14",46
+"308","Bristol, City of","Age 15",41
+"309","Bristol, City of","Age 16",9
+"310","Bristol, City of","Age 17",8
+"311","Bristol, City of","Age 18",4
+"312","Bristol, City of","Age 19 plus",0
+"313","Bristol, City of","Age 2",0
+"314","Bristol, City of","Age 3",1
+"315","Bristol, City of","Age 4",0
+"316","Bristol, City of","Age 5",2
+"317","Bristol, City of","Age 6",3
+"318","Bristol, City of","Age 7",5
+"319","Bristol, City of","Age 8",6
+"320","Bristol, City of","Age 9",13
+"321","Bromley","Age 0",0
+"322","Bromley","Age 1",0
+"323","Bromley","Age 10",17
+"324","Bromley","Age 11",48
+"325","Bromley","Age 12",55
+"326","Bromley","Age 13",64
+"327","Bromley","Age 14",88
+"328","Bromley","Age 15",69
+"329","Bromley","Age 16",61
+"330","Bromley","Age 17",57
+"331","Bromley","Age 18",42
+"332","Bromley","Age 19 plus",0
+"333","Bromley","Age 2",0
+"334","Bromley","Age 3",0
+"335","Bromley","Age 4",1
+"336","Bromley","Age 5",2
+"337","Bromley","Age 6",3
+"338","Bromley","Age 7",7
+"339","Bromley","Age 8",9
+"340","Bromley","Age 9",15
+"341","Buckinghamshire","Age 0",0
+"342","Buckinghamshire","Age 1",0
+"343","Buckinghamshire","Age 10",16
+"344","Buckinghamshire","Age 11",39
+"345","Buckinghamshire","Age 12",50
+"346","Buckinghamshire","Age 13",46
+"347","Buckinghamshire","Age 14",61
+"348","Buckinghamshire","Age 15",66
+"349","Buckinghamshire","Age 16",62
+"350","Buckinghamshire","Age 17",59
+"351","Buckinghamshire","Age 18",44
+"352","Buckinghamshire","Age 19 plus",0
+"353","Buckinghamshire","Age 2",0
+"354","Buckinghamshire","Age 3",0
+"355","Buckinghamshire","Age 4",1
+"356","Buckinghamshire","Age 5",0
+"357","Buckinghamshire","Age 6",4
+"358","Buckinghamshire","Age 7",5
+"359","Buckinghamshire","Age 8",6
+"360","Buckinghamshire","Age 9",12
+"361","Bury","Age 0",0
+"362","Bury","Age 1",0
+"363","Bury","Age 10",10
+"364","Bury","Age 11",12
+"365","Bury","Age 12",33
+"366","Bury","Age 13",28
+"367","Bury","Age 14",29
+"368","Bury","Age 15",52
+"369","Bury","Age 16",15
+"370","Bury","Age 17",9
+"371","Bury","Age 18",5
+"372","Bury","Age 19 plus",0
+"373","Bury","Age 2",0
+"374","Bury","Age 3",1
+"375","Bury","Age 4",4
+"376","Bury","Age 5",6
+"377","Bury","Age 6",5
+"378","Bury","Age 7",8
+"379","Bury","Age 8",15
+"380","Bury","Age 9",5
+"381","Calderdale","Age 0",0
+"382","Calderdale","Age 1",0
+"383","Calderdale","Age 10",18
+"384","Calderdale","Age 11",28
+"385","Calderdale","Age 12",28
+"386","Calderdale","Age 13",30
+"387","Calderdale","Age 14",40
+"388","Calderdale","Age 15",33
+"389","Calderdale","Age 16",13
+"390","Calderdale","Age 17",8
+"391","Calderdale","Age 18",3
+"392","Calderdale","Age 19 plus",0
+"393","Calderdale","Age 2",0
+"394","Calderdale","Age 3",0
+"395","Calderdale","Age 4",1
+"396","Calderdale","Age 5",0
+"397","Calderdale","Age 6",3
+"398","Calderdale","Age 7",8
+"399","Calderdale","Age 8",11
+"400","Calderdale","Age 9",12
+"401","Cambridgeshire","Age 0",0
+"402","Cambridgeshire","Age 1",0
+"403","Cambridgeshire","Age 10",42
+"404","Cambridgeshire","Age 11",57
+"405","Cambridgeshire","Age 12",57
+"406","Cambridgeshire","Age 13",75
+"407","Cambridgeshire","Age 14",106
+"408","Cambridgeshire","Age 15",83
+"409","Cambridgeshire","Age 16",69
+"410","Cambridgeshire","Age 17",47
+"411","Cambridgeshire","Age 18",21
+"412","Cambridgeshire","Age 19 plus",0
+"413","Cambridgeshire","Age 2",0
+"414","Cambridgeshire","Age 3",0
+"415","Cambridgeshire","Age 4",6
+"416","Cambridgeshire","Age 5",6
+"417","Cambridgeshire","Age 6",10
+"418","Cambridgeshire","Age 7",11
+"419","Cambridgeshire","Age 8",25
+"420","Cambridgeshire","Age 9",27
+"421","Camden","Age 0",0
+"422","Camden","Age 1",0
+"423","Camden","Age 10",5
+"424","Camden","Age 11",6
+"425","Camden","Age 12",14
+"426","Camden","Age 13",7
+"427","Camden","Age 14",14
+"428","Camden","Age 15",14
+"429","Camden","Age 16",9
+"430","Camden","Age 17",4
+"431","Camden","Age 18",6
+"432","Camden","Age 19 plus",0
+"433","Camden","Age 2",0
+"434","Camden","Age 3",0
+"435","Camden","Age 4",2
+"436","Camden","Age 5",5
+"437","Camden","Age 6",2
+"438","Camden","Age 7",1
+"439","Camden","Age 8",5
+"440","Camden","Age 9",5
+"441","Central Bedfordshire","Age 0",0
+"442","Central Bedfordshire","Age 1",0
+"443","Central Bedfordshire","Age 10",15
+"444","Central Bedfordshire","Age 11",12
+"445","Central Bedfordshire","Age 12",18
+"446","Central Bedfordshire","Age 13",16
+"447","Central Bedfordshire","Age 14",21
+"448","Central Bedfordshire","Age 15",27
+"449","Central Bedfordshire","Age 16",29
+"450","Central Bedfordshire","Age 17",21
+"451","Central Bedfordshire","Age 18",15
+"452","Central Bedfordshire","Age 19 plus",0
+"453","Central Bedfordshire","Age 2",0
+"454","Central Bedfordshire","Age 3",0
+"455","Central Bedfordshire","Age 4",1
+"456","Central Bedfordshire","Age 5",3
+"457","Central Bedfordshire","Age 6",2
+"458","Central Bedfordshire","Age 7",2
+"459","Central Bedfordshire","Age 8",1
+"460","Central Bedfordshire","Age 9",12
+"461","Cheshire East","Age 0",0
+"462","Cheshire East","Age 1",0
+"463","Cheshire East","Age 10",41
+"464","Cheshire East","Age 11",65
+"465","Cheshire East","Age 12",60
+"466","Cheshire East","Age 13",91
+"467","Cheshire East","Age 14",97
+"468","Cheshire East","Age 15",78
+"469","Cheshire East","Age 16",71
+"470","Cheshire East","Age 17",76
+"471","Cheshire East","Age 18",83
+"472","Cheshire East","Age 19 plus",0
+"473","Cheshire East","Age 2",0
+"474","Cheshire East","Age 3",0
+"475","Cheshire East","Age 4",1
+"476","Cheshire East","Age 5",1
+"477","Cheshire East","Age 6",21
+"478","Cheshire East","Age 7",32
+"479","Cheshire East","Age 8",35
+"480","Cheshire East","Age 9",33
+"481","Cheshire West and Chester","Age 0",0
+"482","Cheshire West and Chester","Age 1",0
+"483","Cheshire West and Chester","Age 10",6
+"484","Cheshire West and Chester","Age 11",26
+"485","Cheshire West and Chester","Age 12",25
+"486","Cheshire West and Chester","Age 13",34
+"487","Cheshire West and Chester","Age 14",42
+"488","Cheshire West and Chester","Age 15",46
+"489","Cheshire West and Chester","Age 16",15
+"490","Cheshire West and Chester","Age 17",14
+"491","Cheshire West and Chester","Age 18",10
+"492","Cheshire West and Chester","Age 19 plus",0
+"493","Cheshire West and Chester","Age 2",0
+"494","Cheshire West and Chester","Age 3",0
+"495","Cheshire West and Chester","Age 4",3
+"496","Cheshire West and Chester","Age 5",2
+"497","Cheshire West and Chester","Age 6",7
+"498","Cheshire West and Chester","Age 7",11
+"499","Cheshire West and Chester","Age 8",11
+"500","Cheshire West and Chester","Age 9",15
+"501","City of London","Age 0",0
+"502","City of London","Age 1",0
+"503","City of London","Age 10",0
+"504","City of London","Age 11",0
+"505","City of London","Age 12",0
+"506","City of London","Age 13",2
+"507","City of London","Age 14",2
+"508","City of London","Age 15",0
+"509","City of London","Age 16",1
+"510","City of London","Age 17",0
+"511","City of London","Age 18",0
+"512","City of London","Age 19 plus",0
+"513","City of London","Age 2",0
+"514","City of London","Age 3",0
+"515","City of London","Age 4",0
+"516","City of London","Age 5",0
+"517","City of London","Age 6",0
+"518","City of London","Age 7",0
+"519","City of London","Age 8",0
+"520","City of London","Age 9",0
+"521","Cornwall","Age 0",0
+"522","Cornwall","Age 1",0
+"523","Cornwall","Age 10",29
+"524","Cornwall","Age 11",63
+"525","Cornwall","Age 12",56
+"526","Cornwall","Age 13",76
+"527","Cornwall","Age 14",65
+"528","Cornwall","Age 15",51
+"529","Cornwall","Age 16",66
+"530","Cornwall","Age 17",67
+"531","Cornwall","Age 18",18
+"532","Cornwall","Age 19 plus",0
+"533","Cornwall","Age 2",0
+"534","Cornwall","Age 3",0
+"535","Cornwall","Age 4",1
+"536","Cornwall","Age 5",4
+"537","Cornwall","Age 6",2
+"538","Cornwall","Age 7",10
+"539","Cornwall","Age 8",11
+"540","Cornwall","Age 9",29
+"541","County Durham","Age 0",0
+"542","County Durham","Age 1",0
+"543","County Durham","Age 10",8
+"544","County Durham","Age 11",13
+"545","County Durham","Age 12",23
+"546","County Durham","Age 13",11
+"547","County Durham","Age 14",25
+"548","County Durham","Age 15",28
+"549","County Durham","Age 16",34
+"550","County Durham","Age 17",24
+"551","County Durham","Age 18",25
+"552","County Durham","Age 19 plus",57
+"553","County Durham","Age 2",0
+"554","County Durham","Age 3",0
+"555","County Durham","Age 4",0
+"556","County Durham","Age 5",1
+"557","County Durham","Age 6",3
+"558","County Durham","Age 7",3
+"559","County Durham","Age 8",9
+"560","County Durham","Age 9",11
+"561","Coventry","Age 0",0
+"562","Coventry","Age 1",0
+"563","Coventry","Age 10",7
+"564","Coventry","Age 11",21
+"565","Coventry","Age 12",16
+"566","Coventry","Age 13",15
+"567","Coventry","Age 14",36
+"568","Coventry","Age 15",36
+"569","Coventry","Age 16",44
+"570","Coventry","Age 17",19
+"571","Coventry","Age 18",12
+"572","Coventry","Age 19 plus",0
+"573","Coventry","Age 2",0
+"574","Coventry","Age 3",0
+"575","Coventry","Age 4",1
+"576","Coventry","Age 5",2
+"577","Coventry","Age 6",3
+"578","Coventry","Age 7",6
+"579","Coventry","Age 8",4
+"580","Coventry","Age 9",8
+"581","Croydon","Age 0",0
+"582","Croydon","Age 1",0
+"583","Croydon","Age 10",21
+"584","Croydon","Age 11",62
+"585","Croydon","Age 12",50
+"586","Croydon","Age 13",80
+"587","Croydon","Age 14",67
+"588","Croydon","Age 15",98
+"589","Croydon","Age 16",41
+"590","Croydon","Age 17",28
+"591","Croydon","Age 18",16
+"592","Croydon","Age 19 plus",79
+"593","Croydon","Age 2",0
+"594","Croydon","Age 3",0
+"595","Croydon","Age 4",20
+"596","Croydon","Age 5",9
+"597","Croydon","Age 6",24
+"598","Croydon","Age 7",29
+"599","Croydon","Age 8",18
+"600","Croydon","Age 9",22
+"601","Cumberland","Age 0",0
+"602","Cumberland","Age 1",0
+"603","Cumberland","Age 10",5
+"604","Cumberland","Age 11",16
+"605","Cumberland","Age 12",19
+"606","Cumberland","Age 13",18
+"607","Cumberland","Age 14",17
+"608","Cumberland","Age 15",24
+"609","Cumberland","Age 16",24
+"610","Cumberland","Age 17",8
+"611","Cumberland","Age 18",11
+"612","Cumberland","Age 19 plus",10
+"613","Cumberland","Age 2",0
+"614","Cumberland","Age 3",0
+"615","Cumberland","Age 4",0
+"616","Cumberland","Age 5",0
+"617","Cumberland","Age 6",1
+"618","Cumberland","Age 7",1
+"619","Cumberland","Age 8",5
+"620","Cumberland","Age 9",7
+"621","Darlington","Age 0",0
+"622","Darlington","Age 1",0
+"623","Darlington","Age 10",0
+"624","Darlington","Age 11",3
+"625","Darlington","Age 12",8
+"626","Darlington","Age 13",16
+"627","Darlington","Age 14",13
+"628","Darlington","Age 15",7
+"629","Darlington","Age 16",2
+"630","Darlington","Age 17",0
+"631","Darlington","Age 18",0
+"632","Darlington","Age 19 plus",0
+"633","Darlington","Age 2",0
+"634","Darlington","Age 3",0
+"635","Darlington","Age 4",0
+"636","Darlington","Age 5",0
+"637","Darlington","Age 6",0
+"638","Darlington","Age 7",0
+"639","Darlington","Age 8",0
+"640","Darlington","Age 9",0
+"641","Derby","Age 0",0
+"642","Derby","Age 1",0
+"643","Derby","Age 10",12
+"644","Derby","Age 11",20
+"645","Derby","Age 12",17
+"646","Derby","Age 13",23
+"647","Derby","Age 14",21
+"648","Derby","Age 15",31
+"649","Derby","Age 16",23
+"650","Derby","Age 17",41
+"651","Derby","Age 18",20
+"652","Derby","Age 19 plus",0
+"653","Derby","Age 2",0
+"654","Derby","Age 3",0
+"655","Derby","Age 4",0
+"656","Derby","Age 5",0
+"657","Derby","Age 6",5
+"658","Derby","Age 7",3
+"659","Derby","Age 8",6
+"660","Derby","Age 9",4
+"661","Derbyshire","Age 0",0
+"662","Derbyshire","Age 1",0
+"663","Derbyshire","Age 10",26
+"664","Derbyshire","Age 11",41
+"665","Derbyshire","Age 12",71
+"666","Derbyshire","Age 13",54
+"667","Derbyshire","Age 14",79
+"668","Derbyshire","Age 15",95
+"669","Derbyshire","Age 16",86
+"670","Derbyshire","Age 17",50
+"671","Derbyshire","Age 18",52
+"672","Derbyshire","Age 19 plus",117
+"673","Derbyshire","Age 2",0
+"674","Derbyshire","Age 3",0
+"675","Derbyshire","Age 4",1
+"676","Derbyshire","Age 5",1
+"677","Derbyshire","Age 6",6
+"678","Derbyshire","Age 7",15
+"679","Derbyshire","Age 8",11
+"680","Derbyshire","Age 9",27
+"681","Devon","Age 0",0
+"682","Devon","Age 1",0
+"683","Devon","Age 10",50
+"684","Devon","Age 11",142
+"685","Devon","Age 12",157
+"686","Devon","Age 13",195
+"687","Devon","Age 14",234
+"688","Devon","Age 15",258
+"689","Devon","Age 16",137
+"690","Devon","Age 17",108
+"691","Devon","Age 18",68
+"692","Devon","Age 19 plus",0
+"693","Devon","Age 2",2
+"694","Devon","Age 3",2
+"695","Devon","Age 4",5
+"696","Devon","Age 5",8
+"697","Devon","Age 6",15
+"698","Devon","Age 7",26
+"699","Devon","Age 8",40
+"700","Devon","Age 9",46
+"701","Doncaster","Age 0",0
+"702","Doncaster","Age 1",0
+"703","Doncaster","Age 10",6
+"704","Doncaster","Age 11",19
+"705","Doncaster","Age 12",24
+"706","Doncaster","Age 13",28
+"707","Doncaster","Age 14",48
+"708","Doncaster","Age 15",51
+"709","Doncaster","Age 16",56
+"710","Doncaster","Age 17",47
+"711","Doncaster","Age 18",29
+"712","Doncaster","Age 19 plus",0
+"713","Doncaster","Age 2",0
+"714","Doncaster","Age 3",0
+"715","Doncaster","Age 4",0
+"716","Doncaster","Age 5",0
+"717","Doncaster","Age 6",2
+"718","Doncaster","Age 7",2
+"719","Doncaster","Age 8",3
+"720","Doncaster","Age 9",6
+"721","Dorset","Age 0",0
+"722","Dorset","Age 1",0
+"723","Dorset","Age 10",36
+"724","Dorset","Age 11",56
+"725","Dorset","Age 12",76
+"726","Dorset","Age 13",70
+"727","Dorset","Age 14",92
+"728","Dorset","Age 15",118
+"729","Dorset","Age 16",70
+"730","Dorset","Age 17",60
+"731","Dorset","Age 18",43
+"732","Dorset","Age 19 plus",0
+"733","Dorset","Age 2",0
+"734","Dorset","Age 3",0
+"735","Dorset","Age 4",4
+"736","Dorset","Age 5",6
+"737","Dorset","Age 6",12
+"738","Dorset","Age 7",15
+"739","Dorset","Age 8",26
+"740","Dorset","Age 9",27
+"741","Dudley","Age 0",0
+"742","Dudley","Age 1",0
+"743","Dudley","Age 10",18
+"744","Dudley","Age 11",33
+"745","Dudley","Age 12",52
+"746","Dudley","Age 13",52
+"747","Dudley","Age 14",65
+"748","Dudley","Age 15",92
+"749","Dudley","Age 16",42
+"750","Dudley","Age 17",35
+"751","Dudley","Age 18",19
+"752","Dudley","Age 19 plus",0
+"753","Dudley","Age 2",0
+"754","Dudley","Age 3",1
+"755","Dudley","Age 4",0
+"756","Dudley","Age 5",4
+"757","Dudley","Age 6",5
+"758","Dudley","Age 7",1
+"759","Dudley","Age 8",13
+"760","Dudley","Age 9",14
+"761","Ealing","Age 0",0
+"762","Ealing","Age 1",0
+"763","Ealing","Age 10",17
+"764","Ealing","Age 11",23
+"765","Ealing","Age 12",20
+"766","Ealing","Age 13",37
+"767","Ealing","Age 14",32
+"768","Ealing","Age 15",75
+"769","Ealing","Age 16",31
+"770","Ealing","Age 17",20
+"771","Ealing","Age 18",13
+"772","Ealing","Age 19 plus",0
+"773","Ealing","Age 2",0
+"774","Ealing","Age 3",0
+"775","Ealing","Age 4",2
+"776","Ealing","Age 5",8
+"777","Ealing","Age 6",9
+"778","Ealing","Age 7",15
+"779","Ealing","Age 8",17
+"780","Ealing","Age 9",18
+"781","East Riding of Yorkshire","Age 0",0
+"782","East Riding of Yorkshire","Age 1",0
+"783","East Riding of Yorkshire","Age 10",9
+"784","East Riding of Yorkshire","Age 11",13
+"785","East Riding of Yorkshire","Age 12",36
+"786","East Riding of Yorkshire","Age 13",52
+"787","East Riding of Yorkshire","Age 14",60
+"788","East Riding of Yorkshire","Age 15",69
+"789","East Riding of Yorkshire","Age 16",21
+"790","East Riding of Yorkshire","Age 17",24
+"791","East Riding of Yorkshire","Age 18",9
+"792","East Riding of Yorkshire","Age 19 plus",0
+"793","East Riding of Yorkshire","Age 2",0
+"794","East Riding of Yorkshire","Age 3",1
+"795","East Riding of Yorkshire","Age 4",0
+"796","East Riding of Yorkshire","Age 5",1
+"797","East Riding of Yorkshire","Age 6",4
+"798","East Riding of Yorkshire","Age 7",10
+"799","East Riding of Yorkshire","Age 8",4
+"800","East Riding of Yorkshire","Age 9",8
+"801","East Sussex","Age 0",0
+"802","East Sussex","Age 1",0
+"803","East Sussex","Age 10",34
+"804","East Sussex","Age 11",72
+"805","East Sussex","Age 12",55
+"806","East Sussex","Age 13",86
+"807","East Sussex","Age 14",65
+"808","East Sussex","Age 15",51
+"809","East Sussex","Age 16",29
+"810","East Sussex","Age 17",26
+"811","East Sussex","Age 18",16
+"812","East Sussex","Age 19 plus",0
+"813","East Sussex","Age 2",0
+"814","East Sussex","Age 3",0
+"815","East Sussex","Age 4",0
+"816","East Sussex","Age 5",5
+"817","East Sussex","Age 6",12
+"818","East Sussex","Age 7",25
+"819","East Sussex","Age 8",16
+"820","East Sussex","Age 9",27
+"821","Enfield","Age 0",0
+"822","Enfield","Age 1",0
+"823","Enfield","Age 10",28
+"824","Enfield","Age 11",44
+"825","Enfield","Age 12",27
+"826","Enfield","Age 13",29
+"827","Enfield","Age 14",37
+"828","Enfield","Age 15",48
+"829","Enfield","Age 16",24
+"830","Enfield","Age 17",21
+"831","Enfield","Age 18",0
+"832","Enfield","Age 19 plus",0
+"833","Enfield","Age 2",0
+"834","Enfield","Age 3",1
+"835","Enfield","Age 4",3
+"836","Enfield","Age 5",8
+"837","Enfield","Age 6",14
+"838","Enfield","Age 7",24
+"839","Enfield","Age 8",17
+"840","Enfield","Age 9",22
+"841","Essex","Age 0",0
+"842","Essex","Age 1",0
+"843","Essex","Age 10",45
+"844","Essex","Age 11",80
+"845","Essex","Age 12",143
+"846","Essex","Age 13",185
+"847","Essex","Age 14",244
+"848","Essex","Age 15",303
+"849","Essex","Age 16",103
+"850","Essex","Age 17",59
+"851","Essex","Age 18",29
+"852","Essex","Age 19 plus",0
+"853","Essex","Age 2",0
+"854","Essex","Age 3",0
+"855","Essex","Age 4",0
+"856","Essex","Age 5",10
+"857","Essex","Age 6",16
+"858","Essex","Age 7",23
+"859","Essex","Age 8",40
+"860","Essex","Age 9",35
+"861","Gateshead","Age 0",0
+"862","Gateshead","Age 1",0
+"863","Gateshead","Age 10",7
+"864","Gateshead","Age 11",8
+"865","Gateshead","Age 12",11
+"866","Gateshead","Age 13",16
+"867","Gateshead","Age 14",22
+"868","Gateshead","Age 15",32
+"869","Gateshead","Age 16",52
+"870","Gateshead","Age 17",40
+"871","Gateshead","Age 18",52
+"872","Gateshead","Age 19 plus",12
+"873","Gateshead","Age 2",1
+"874","Gateshead","Age 3",1
+"875","Gateshead","Age 4",3
+"876","Gateshead","Age 5",1
+"877","Gateshead","Age 6",4
+"878","Gateshead","Age 7",5
+"879","Gateshead","Age 8",5
+"880","Gateshead","Age 9",8
+"881","Gloucestershire","Age 0",0
+"882","Gloucestershire","Age 1",0
+"883","Gloucestershire","Age 10",30
+"884","Gloucestershire","Age 11",52
+"885","Gloucestershire","Age 12",59
+"886","Gloucestershire","Age 13",70
+"887","Gloucestershire","Age 14",71
+"888","Gloucestershire","Age 15",61
+"889","Gloucestershire","Age 16",26
+"890","Gloucestershire","Age 17",32
+"891","Gloucestershire","Age 18",13
+"892","Gloucestershire","Age 19 plus",0
+"893","Gloucestershire","Age 2",0
+"894","Gloucestershire","Age 3",0
+"895","Gloucestershire","Age 4",4
+"896","Gloucestershire","Age 5",8
+"897","Gloucestershire","Age 6",6
+"898","Gloucestershire","Age 7",14
+"899","Gloucestershire","Age 8",13
+"900","Gloucestershire","Age 9",19
+"901","Greenwich","Age 0",0
+"902","Greenwich","Age 1",0
+"903","Greenwich","Age 10",5
+"904","Greenwich","Age 11",11
+"905","Greenwich","Age 12",29
+"906","Greenwich","Age 13",33
+"907","Greenwich","Age 14",41
+"908","Greenwich","Age 15",40
+"909","Greenwich","Age 16",39
+"910","Greenwich","Age 17",34
+"911","Greenwich","Age 18",20
+"912","Greenwich","Age 19 plus",0
+"913","Greenwich","Age 2",0
+"914","Greenwich","Age 3",0
+"915","Greenwich","Age 4",3
+"916","Greenwich","Age 5",6
+"917","Greenwich","Age 6",3
+"918","Greenwich","Age 7",4
+"919","Greenwich","Age 8",3
+"920","Greenwich","Age 9",8
+"921","Hackney","Age 0",0
+"922","Hackney","Age 1",0
+"923","Hackney","Age 10",51
+"924","Hackney","Age 11",52
+"925","Hackney","Age 12",59
+"926","Hackney","Age 13",49
+"927","Hackney","Age 14",78
+"928","Hackney","Age 15",60
+"929","Hackney","Age 16",50
+"930","Hackney","Age 17",30
+"931","Hackney","Age 18",25
+"932","Hackney","Age 19 plus",44
+"933","Hackney","Age 2",1
+"934","Hackney","Age 3",0
+"935","Hackney","Age 4",9
+"936","Hackney","Age 5",13
+"937","Hackney","Age 6",21
+"938","Hackney","Age 7",39
+"939","Hackney","Age 8",35
+"940","Hackney","Age 9",35
+"941","Halton","Age 0",0
+"942","Halton","Age 1",0
+"943","Halton","Age 10",5
+"944","Halton","Age 11",8
+"945","Halton","Age 12",10
+"946","Halton","Age 13",24
+"947","Halton","Age 14",31
+"948","Halton","Age 15",35
+"949","Halton","Age 16",11
+"950","Halton","Age 17",10
+"951","Halton","Age 18",3
+"952","Halton","Age 19 plus",0
+"953","Halton","Age 2",0
+"954","Halton","Age 3",0
+"955","Halton","Age 4",1
+"956","Halton","Age 5",0
+"957","Halton","Age 6",2
+"958","Halton","Age 7",6
+"959","Halton","Age 8",6
+"960","Halton","Age 9",10
+"961","Hammersmith and Fulham","Age 0",0
+"962","Hammersmith and Fulham","Age 1",0
+"963","Hammersmith and Fulham","Age 10",9
+"964","Hammersmith and Fulham","Age 11",8
+"965","Hammersmith and Fulham","Age 12",16
+"966","Hammersmith and Fulham","Age 13",15
+"967","Hammersmith and Fulham","Age 14",22
+"968","Hammersmith and Fulham","Age 15",10
+"969","Hammersmith and Fulham","Age 16",9
+"970","Hammersmith and Fulham","Age 17",17
+"971","Hammersmith and Fulham","Age 18",9
+"972","Hammersmith and Fulham","Age 19 plus",0
+"973","Hammersmith and Fulham","Age 2",0
+"974","Hammersmith and Fulham","Age 3",1
+"975","Hammersmith and Fulham","Age 4",9
+"976","Hammersmith and Fulham","Age 5",11
+"977","Hammersmith and Fulham","Age 6",12
+"978","Hammersmith and Fulham","Age 7",11
+"979","Hammersmith and Fulham","Age 8",10
+"980","Hammersmith and Fulham","Age 9",9
+"981","Hampshire","Age 0",0
+"982","Hampshire","Age 1",0
+"983","Hampshire","Age 10",107
+"984","Hampshire","Age 11",185
+"985","Hampshire","Age 12",204
+"986","Hampshire","Age 13",239
+"987","Hampshire","Age 14",237
+"988","Hampshire","Age 15",205
+"989","Hampshire","Age 16",117
+"990","Hampshire","Age 17",75
+"991","Hampshire","Age 18",47
+"992","Hampshire","Age 19 plus",0
+"993","Hampshire","Age 2",0
+"994","Hampshire","Age 3",1
+"995","Hampshire","Age 4",5
+"996","Hampshire","Age 5",20
+"997","Hampshire","Age 6",14
+"998","Hampshire","Age 7",45
+"999","Hampshire","Age 8",66
+"1000","Hampshire","Age 9",77
+"1001","Haringey","Age 0",0
+"1002","Haringey","Age 1",0
+"1003","Haringey","Age 10",24
+"1004","Haringey","Age 11",22
+"1005","Haringey","Age 12",24
+"1006","Haringey","Age 13",27
+"1007","Haringey","Age 14",31
+"1008","Haringey","Age 15",27
+"1009","Haringey","Age 16",28
+"1010","Haringey","Age 17",21
+"1011","Haringey","Age 18",13
+"1012","Haringey","Age 19 plus",0
+"1013","Haringey","Age 2",1
+"1014","Haringey","Age 3",2
+"1015","Haringey","Age 4",3
+"1016","Haringey","Age 5",2
+"1017","Haringey","Age 6",11
+"1018","Haringey","Age 7",9
+"1019","Haringey","Age 8",16
+"1020","Haringey","Age 9",21
+"1021","Harrow","Age 0",0
+"1022","Harrow","Age 1",0
+"1023","Harrow","Age 10",7
+"1024","Harrow","Age 11",22
+"1025","Harrow","Age 12",26
+"1026","Harrow","Age 13",22
+"1027","Harrow","Age 14",27
+"1028","Harrow","Age 15",31
+"1029","Harrow","Age 16",28
+"1030","Harrow","Age 17",17
+"1031","Harrow","Age 18",20
+"1032","Harrow","Age 19 plus",39
+"1033","Harrow","Age 2",0
+"1034","Harrow","Age 3",1
+"1035","Harrow","Age 4",4
+"1036","Harrow","Age 5",8
+"1037","Harrow","Age 6",13
+"1038","Harrow","Age 7",9
+"1039","Harrow","Age 8",10
+"1040","Harrow","Age 9",5
+"1041","Hartlepool","Age 0",0
+"1042","Hartlepool","Age 1",0
+"1043","Hartlepool","Age 10",0
+"1044","Hartlepool","Age 11",2
+"1045","Hartlepool","Age 12",9
+"1046","Hartlepool","Age 13",10
+"1047","Hartlepool","Age 14",12
+"1048","Hartlepool","Age 15",17
+"1049","Hartlepool","Age 16",7
+"1050","Hartlepool","Age 17",8
+"1051","Hartlepool","Age 18",1
+"1052","Hartlepool","Age 19 plus",0
+"1053","Hartlepool","Age 2",0
+"1054","Hartlepool","Age 3",0
+"1055","Hartlepool","Age 4",0
+"1056","Hartlepool","Age 5",0
+"1057","Hartlepool","Age 6",0
+"1058","Hartlepool","Age 7",0
+"1059","Hartlepool","Age 8",0
+"1060","Hartlepool","Age 9",0
+"1061","Havering","Age 0",0
+"1062","Havering","Age 1",0
+"1063","Havering","Age 10",12
+"1064","Havering","Age 11",18
+"1065","Havering","Age 12",13
+"1066","Havering","Age 13",22
+"1067","Havering","Age 14",15
+"1068","Havering","Age 15",34
+"1069","Havering","Age 16",24
+"1070","Havering","Age 17",5
+"1071","Havering","Age 18",8
+"1072","Havering","Age 19 plus",0
+"1073","Havering","Age 2",0
+"1074","Havering","Age 3",0
+"1075","Havering","Age 4",0
+"1076","Havering","Age 5",0
+"1077","Havering","Age 6",2
+"1078","Havering","Age 7",1
+"1079","Havering","Age 8",8
+"1080","Havering","Age 9",6
+"1081","Herefordshire, County of","Age 0",0
+"1082","Herefordshire, County of","Age 1",0
+"1083","Herefordshire, County of","Age 10",14
+"1084","Herefordshire, County of","Age 11",25
+"1085","Herefordshire, County of","Age 12",28
+"1086","Herefordshire, County of","Age 13",28
+"1087","Herefordshire, County of","Age 14",26
+"1088","Herefordshire, County of","Age 15",27
+"1089","Herefordshire, County of","Age 16",16
+"1090","Herefordshire, County of","Age 17",10
+"1091","Herefordshire, County of","Age 18",9
+"1092","Herefordshire, County of","Age 19 plus",0
+"1093","Herefordshire, County of","Age 2",0
+"1094","Herefordshire, County of","Age 3",0
+"1095","Herefordshire, County of","Age 4",3
+"1096","Herefordshire, County of","Age 5",7
+"1097","Herefordshire, County of","Age 6",4
+"1098","Herefordshire, County of","Age 7",5
+"1099","Herefordshire, County of","Age 8",5
+"1100","Herefordshire, County of","Age 9",10
+"1101","Hertfordshire","Age 0",0
+"1102","Hertfordshire","Age 1",0
+"1103","Hertfordshire","Age 10",35
+"1104","Hertfordshire","Age 11",61
+"1105","Hertfordshire","Age 12",92
+"1106","Hertfordshire","Age 13",137
+"1107","Hertfordshire","Age 14",168
+"1108","Hertfordshire","Age 15",177
+"1109","Hertfordshire","Age 16",78
+"1110","Hertfordshire","Age 17",38
+"1111","Hertfordshire","Age 18",0
+"1112","Hertfordshire","Age 19 plus",0
+"1113","Hertfordshire","Age 2",0
+"1114","Hertfordshire","Age 3",0
+"1115","Hertfordshire","Age 4",2
+"1116","Hertfordshire","Age 5",17
+"1117","Hertfordshire","Age 6",25
+"1118","Hertfordshire","Age 7",25
+"1119","Hertfordshire","Age 8",37
+"1120","Hertfordshire","Age 9",33
+"1121","Hillingdon","Age 0",0
+"1122","Hillingdon","Age 1",0
+"1123","Hillingdon","Age 10",6
+"1124","Hillingdon","Age 11",2
+"1125","Hillingdon","Age 12",5
+"1126","Hillingdon","Age 13",16
+"1127","Hillingdon","Age 14",18
+"1128","Hillingdon","Age 15",17
+"1129","Hillingdon","Age 16",17
+"1130","Hillingdon","Age 17",12
+"1131","Hillingdon","Age 18",4
+"1132","Hillingdon","Age 19 plus",0
+"1133","Hillingdon","Age 2",0
+"1134","Hillingdon","Age 3",0
+"1135","Hillingdon","Age 4",0
+"1136","Hillingdon","Age 5",0
+"1137","Hillingdon","Age 6",2
+"1138","Hillingdon","Age 7",4
+"1139","Hillingdon","Age 8",10
+"1140","Hillingdon","Age 9",12
+"1141","Hounslow","Age 0",0
+"1142","Hounslow","Age 1",0
+"1143","Hounslow","Age 10",12
+"1144","Hounslow","Age 11",18
+"1145","Hounslow","Age 12",29
+"1146","Hounslow","Age 13",43
+"1147","Hounslow","Age 14",49
+"1148","Hounslow","Age 15",32
+"1149","Hounslow","Age 16",20
+"1150","Hounslow","Age 17",30
+"1151","Hounslow","Age 18",10
+"1152","Hounslow","Age 19 plus",0
+"1153","Hounslow","Age 2",0
+"1154","Hounslow","Age 3",0
+"1155","Hounslow","Age 4",0
+"1156","Hounslow","Age 5",0
+"1157","Hounslow","Age 6",4
+"1158","Hounslow","Age 7",4
+"1159","Hounslow","Age 8",5
+"1160","Hounslow","Age 9",19
+"1161","Isle of Wight","Age 0",0
+"1162","Isle of Wight","Age 1",0
+"1163","Isle of Wight","Age 10",4
+"1164","Isle of Wight","Age 11",8
+"1165","Isle of Wight","Age 12",17
+"1166","Isle of Wight","Age 13",19
+"1167","Isle of Wight","Age 14",17
+"1168","Isle of Wight","Age 15",13
+"1169","Isle of Wight","Age 16",11
+"1170","Isle of Wight","Age 17",25
+"1171","Isle of Wight","Age 18",16
+"1172","Isle of Wight","Age 19 plus",10
+"1173","Isle of Wight","Age 2",0
+"1174","Isle of Wight","Age 3",0
+"1175","Isle of Wight","Age 4",0
+"1176","Isle of Wight","Age 5",0
+"1177","Isle of Wight","Age 6",0
+"1178","Isle of Wight","Age 7",1
+"1179","Isle of Wight","Age 8",3
+"1180","Isle of Wight","Age 9",1
+"1181","Isles of Scilly","Age 0",0
+"1182","Isles of Scilly","Age 1",0
+"1183","Isles of Scilly","Age 10",0
+"1184","Isles of Scilly","Age 11",0
+"1185","Isles of Scilly","Age 12",0
+"1186","Isles of Scilly","Age 13",0
+"1187","Isles of Scilly","Age 14",0
+"1188","Isles of Scilly","Age 15",0
+"1189","Isles of Scilly","Age 16",2
+"1190","Isles of Scilly","Age 17",0
+"1191","Isles of Scilly","Age 18",0
+"1192","Isles of Scilly","Age 19 plus",0
+"1193","Isles of Scilly","Age 2",0
+"1194","Isles of Scilly","Age 3",0
+"1195","Isles of Scilly","Age 4",0
+"1196","Isles of Scilly","Age 5",0
+"1197","Isles of Scilly","Age 6",0
+"1198","Isles of Scilly","Age 7",0
+"1199","Isles of Scilly","Age 8",0
+"1200","Isles of Scilly","Age 9",0
+"1201","Islington","Age 0",0
+"1202","Islington","Age 1",0
+"1203","Islington","Age 10",3
+"1204","Islington","Age 11",7
+"1205","Islington","Age 12",3
+"1206","Islington","Age 13",8
+"1207","Islington","Age 14",4
+"1208","Islington","Age 15",4
+"1209","Islington","Age 16",8
+"1210","Islington","Age 17",14
+"1211","Islington","Age 18",11
+"1212","Islington","Age 19 plus",0
+"1213","Islington","Age 2",0
+"1214","Islington","Age 3",0
+"1215","Islington","Age 4",0
+"1216","Islington","Age 5",0
+"1217","Islington","Age 6",0
+"1218","Islington","Age 7",0
+"1219","Islington","Age 8",0
+"1220","Islington","Age 9",1
+"1221","Kensington and Chelsea","Age 0",0
+"1222","Kensington and Chelsea","Age 1",0
+"1223","Kensington and Chelsea","Age 10",4
+"1224","Kensington and Chelsea","Age 11",5
+"1225","Kensington and Chelsea","Age 12",6
+"1226","Kensington and Chelsea","Age 13",7
+"1227","Kensington and Chelsea","Age 14",8
+"1228","Kensington and Chelsea","Age 15",14
+"1229","Kensington and Chelsea","Age 16",7
+"1230","Kensington and Chelsea","Age 17",8
+"1231","Kensington and Chelsea","Age 18",5
+"1232","Kensington and Chelsea","Age 19 plus",0
+"1233","Kensington and Chelsea","Age 2",0
+"1234","Kensington and Chelsea","Age 3",0
+"1235","Kensington and Chelsea","Age 4",0
+"1236","Kensington and Chelsea","Age 5",0
+"1237","Kensington and Chelsea","Age 6",1
+"1238","Kensington and Chelsea","Age 7",1
+"1239","Kensington and Chelsea","Age 8",1
+"1240","Kensington and Chelsea","Age 9",3
+"1241","Kent","Age 0",0
+"1242","Kent","Age 1",0
+"1243","Kent","Age 10",113
+"1244","Kent","Age 11",206
+"1245","Kent","Age 12",251
+"1246","Kent","Age 13",298
+"1247","Kent","Age 14",343
+"1248","Kent","Age 15",328
+"1249","Kent","Age 16",329
+"1250","Kent","Age 17",336
+"1251","Kent","Age 18",250
+"1252","Kent","Age 19 plus",0
+"1253","Kent","Age 2",0
+"1254","Kent","Age 3",5
+"1255","Kent","Age 4",7
+"1256","Kent","Age 5",15
+"1257","Kent","Age 6",27
+"1258","Kent","Age 7",45
+"1259","Kent","Age 8",72
+"1260","Kent","Age 9",90
+"1261","Kingston upon Hull, City of","Age 0",0
+"1262","Kingston upon Hull, City of","Age 1",0
+"1263","Kingston upon Hull, City of","Age 10",0
+"1264","Kingston upon Hull, City of","Age 11",5
+"1265","Kingston upon Hull, City of","Age 12",6
+"1266","Kingston upon Hull, City of","Age 13",5
+"1267","Kingston upon Hull, City of","Age 14",8
+"1268","Kingston upon Hull, City of","Age 15",15
+"1269","Kingston upon Hull, City of","Age 16",11
+"1270","Kingston upon Hull, City of","Age 17",16
+"1271","Kingston upon Hull, City of","Age 18",11
+"1272","Kingston upon Hull, City of","Age 19 plus",0
+"1273","Kingston upon Hull, City of","Age 2",0
+"1274","Kingston upon Hull, City of","Age 3",0
+"1275","Kingston upon Hull, City of","Age 4",0
+"1276","Kingston upon Hull, City of","Age 5",1
+"1277","Kingston upon Hull, City of","Age 6",1
+"1278","Kingston upon Hull, City of","Age 7",0
+"1279","Kingston upon Hull, City of","Age 8",0
+"1280","Kingston upon Hull, City of","Age 9",1
+"1281","Kingston upon Thames","Age 0",0
+"1282","Kingston upon Thames","Age 1",0
+"1283","Kingston upon Thames","Age 10",6
+"1284","Kingston upon Thames","Age 11",12
+"1285","Kingston upon Thames","Age 12",15
+"1286","Kingston upon Thames","Age 13",17
+"1287","Kingston upon Thames","Age 14",18
+"1288","Kingston upon Thames","Age 15",16
+"1289","Kingston upon Thames","Age 16",20
+"1290","Kingston upon Thames","Age 17",16
+"1291","Kingston upon Thames","Age 18",12
+"1292","Kingston upon Thames","Age 19 plus",0
+"1293","Kingston upon Thames","Age 2",0
+"1294","Kingston upon Thames","Age 3",0
+"1295","Kingston upon Thames","Age 4",0
+"1296","Kingston upon Thames","Age 5",1
+"1297","Kingston upon Thames","Age 6",3
+"1298","Kingston upon Thames","Age 7",1
+"1299","Kingston upon Thames","Age 8",6
+"1300","Kingston upon Thames","Age 9",7
+"1301","Kirklees","Age 0",0
+"1302","Kirklees","Age 1",0
+"1303","Kirklees","Age 10",3
+"1304","Kirklees","Age 11",13
+"1305","Kirklees","Age 12",13
+"1306","Kirklees","Age 13",17
+"1307","Kirklees","Age 14",36
+"1308","Kirklees","Age 15",48
+"1309","Kirklees","Age 16",36
+"1310","Kirklees","Age 17",16
+"1311","Kirklees","Age 18",21
+"1312","Kirklees","Age 19 plus",10
+"1313","Kirklees","Age 2",2
+"1314","Kirklees","Age 3",0
+"1315","Kirklees","Age 4",0
+"1316","Kirklees","Age 5",4
+"1317","Kirklees","Age 6",6
+"1318","Kirklees","Age 7",4
+"1319","Kirklees","Age 8",5
+"1320","Kirklees","Age 9",10
+"1321","Knowsley","Age 0",0
+"1322","Knowsley","Age 1",0
+"1323","Knowsley","Age 10",16
+"1324","Knowsley","Age 11",20
+"1325","Knowsley","Age 12",18
+"1326","Knowsley","Age 13",29
+"1327","Knowsley","Age 14",27
+"1328","Knowsley","Age 15",40
+"1329","Knowsley","Age 16",29
+"1330","Knowsley","Age 17",9
+"1331","Knowsley","Age 18",8
+"1332","Knowsley","Age 19 plus",0
+"1333","Knowsley","Age 2",0
+"1334","Knowsley","Age 3",2
+"1335","Knowsley","Age 4",4
+"1336","Knowsley","Age 5",22
+"1337","Knowsley","Age 6",23
+"1338","Knowsley","Age 7",10
+"1339","Knowsley","Age 8",21
+"1340","Knowsley","Age 9",25
+"1341","Lambeth","Age 0",0
+"1342","Lambeth","Age 1",0
+"1343","Lambeth","Age 10",2
+"1344","Lambeth","Age 11",21
+"1345","Lambeth","Age 12",8
+"1346","Lambeth","Age 13",23
+"1347","Lambeth","Age 14",23
+"1348","Lambeth","Age 15",26
+"1349","Lambeth","Age 16",23
+"1350","Lambeth","Age 17",14
+"1351","Lambeth","Age 18",16
+"1352","Lambeth","Age 19 plus",0
+"1353","Lambeth","Age 2",0
+"1354","Lambeth","Age 3",1
+"1355","Lambeth","Age 4",0
+"1356","Lambeth","Age 5",5
+"1357","Lambeth","Age 6",2
+"1358","Lambeth","Age 7",8
+"1359","Lambeth","Age 8",9
+"1360","Lambeth","Age 9",7
+"1361","Lancashire","Age 0",0
+"1362","Lancashire","Age 1",0
+"1363","Lancashire","Age 10",48
+"1364","Lancashire","Age 11",97
+"1365","Lancashire","Age 12",89
+"1366","Lancashire","Age 13",119
+"1367","Lancashire","Age 14",134
+"1368","Lancashire","Age 15",142
+"1369","Lancashire","Age 16",85
+"1370","Lancashire","Age 17",63
+"1371","Lancashire","Age 18",23
+"1372","Lancashire","Age 19 plus",0
+"1373","Lancashire","Age 2",1
+"1374","Lancashire","Age 3",0
+"1375","Lancashire","Age 4",9
+"1376","Lancashire","Age 5",20
+"1377","Lancashire","Age 6",29
+"1378","Lancashire","Age 7",27
+"1379","Lancashire","Age 8",32
+"1380","Lancashire","Age 9",33
+"1381","Leeds","Age 0",0
+"1382","Leeds","Age 1",0
+"1383","Leeds","Age 10",8
+"1384","Leeds","Age 11",26
+"1385","Leeds","Age 12",47
+"1386","Leeds","Age 13",45
+"1387","Leeds","Age 14",71
+"1388","Leeds","Age 15",74
+"1389","Leeds","Age 16",59
+"1390","Leeds","Age 17",40
+"1391","Leeds","Age 18",35
+"1392","Leeds","Age 19 plus",170
+"1393","Leeds","Age 2",0
+"1394","Leeds","Age 3",0
+"1395","Leeds","Age 4",0
+"1396","Leeds","Age 5",0
+"1397","Leeds","Age 6",4
+"1398","Leeds","Age 7",2
+"1399","Leeds","Age 8",5
+"1400","Leeds","Age 9",4
+"1401","Leicester","Age 0",0
+"1402","Leicester","Age 1",0
+"1403","Leicester","Age 10",9
+"1404","Leicester","Age 11",18
+"1405","Leicester","Age 12",28
+"1406","Leicester","Age 13",13
+"1407","Leicester","Age 14",23
+"1408","Leicester","Age 15",33
+"1409","Leicester","Age 16",31
+"1410","Leicester","Age 17",27
+"1411","Leicester","Age 18",17
+"1412","Leicester","Age 19 plus",0
+"1413","Leicester","Age 2",0
+"1414","Leicester","Age 3",0
+"1415","Leicester","Age 4",0
+"1416","Leicester","Age 5",2
+"1417","Leicester","Age 6",4
+"1418","Leicester","Age 7",2
+"1419","Leicester","Age 8",11
+"1420","Leicester","Age 9",6
+"1421","Leicestershire","Age 0",0
+"1422","Leicestershire","Age 1",0
+"1423","Leicestershire","Age 10",35
+"1424","Leicestershire","Age 11",58
+"1425","Leicestershire","Age 12",52
+"1426","Leicestershire","Age 13",74
+"1427","Leicestershire","Age 14",95
+"1428","Leicestershire","Age 15",84
+"1429","Leicestershire","Age 16",150
+"1430","Leicestershire","Age 17",122
+"1431","Leicestershire","Age 18",94
+"1432","Leicestershire","Age 19 plus",0
+"1433","Leicestershire","Age 2",0
+"1434","Leicestershire","Age 3",0
+"1435","Leicestershire","Age 4",0
+"1436","Leicestershire","Age 5",4
+"1437","Leicestershire","Age 6",7
+"1438","Leicestershire","Age 7",14
+"1439","Leicestershire","Age 8",19
+"1440","Leicestershire","Age 9",22
+"1441","Lewisham","Age 0",0
+"1442","Lewisham","Age 1",0
+"1443","Lewisham","Age 10",15
+"1444","Lewisham","Age 11",17
+"1445","Lewisham","Age 12",34
+"1446","Lewisham","Age 13",55
+"1447","Lewisham","Age 14",67
+"1448","Lewisham","Age 15",72
+"1449","Lewisham","Age 16",106
+"1450","Lewisham","Age 17",134
+"1451","Lewisham","Age 18",103
+"1452","Lewisham","Age 19 plus",154
+"1453","Lewisham","Age 2",0
+"1454","Lewisham","Age 3",0
+"1455","Lewisham","Age 4",0
+"1456","Lewisham","Age 5",3
+"1457","Lewisham","Age 6",4
+"1458","Lewisham","Age 7",3
+"1459","Lewisham","Age 8",7
+"1460","Lewisham","Age 9",7
+"1461","Lincolnshire","Age 0",0
+"1462","Lincolnshire","Age 1",0
+"1463","Lincolnshire","Age 10",29
+"1464","Lincolnshire","Age 11",48
+"1465","Lincolnshire","Age 12",54
+"1466","Lincolnshire","Age 13",106
+"1467","Lincolnshire","Age 14",113
+"1468","Lincolnshire","Age 15",122
+"1469","Lincolnshire","Age 16",36
+"1470","Lincolnshire","Age 17",17
+"1471","Lincolnshire","Age 18",10
+"1472","Lincolnshire","Age 19 plus",0
+"1473","Lincolnshire","Age 2",0
+"1474","Lincolnshire","Age 3",0
+"1475","Lincolnshire","Age 4",4
+"1476","Lincolnshire","Age 5",12
+"1477","Lincolnshire","Age 6",12
+"1478","Lincolnshire","Age 7",22
+"1479","Lincolnshire","Age 8",28
+"1480","Lincolnshire","Age 9",40
+"1481","Liverpool","Age 0",0
+"1482","Liverpool","Age 1",0
+"1483","Liverpool","Age 10",38
+"1484","Liverpool","Age 11",26
+"1485","Liverpool","Age 12",30
+"1486","Liverpool","Age 13",65
+"1487","Liverpool","Age 14",57
+"1488","Liverpool","Age 15",56
+"1489","Liverpool","Age 16",29
+"1490","Liverpool","Age 17",12
+"1491","Liverpool","Age 18",4
+"1492","Liverpool","Age 19 plus",0
+"1493","Liverpool","Age 2",0
+"1494","Liverpool","Age 3",0
+"1495","Liverpool","Age 4",1
+"1496","Liverpool","Age 5",6
+"1497","Liverpool","Age 6",7
+"1498","Liverpool","Age 7",7
+"1499","Liverpool","Age 8",7
+"1500","Liverpool","Age 9",30
+"1501","Luton","Age 0",0
+"1502","Luton","Age 1",0
+"1503","Luton","Age 10",5
+"1504","Luton","Age 11",5
+"1505","Luton","Age 12",6
+"1506","Luton","Age 13",3
+"1507","Luton","Age 14",7
+"1508","Luton","Age 15",17
+"1509","Luton","Age 16",10
+"1510","Luton","Age 17",6
+"1511","Luton","Age 18",2
+"1512","Luton","Age 19 plus",0
+"1513","Luton","Age 2",0
+"1514","Luton","Age 3",0
+"1515","Luton","Age 4",0
+"1516","Luton","Age 5",0
+"1517","Luton","Age 6",1
+"1518","Luton","Age 7",1
+"1519","Luton","Age 8",3
+"1520","Luton","Age 9",4
+"1521","Manchester","Age 0",0
+"1522","Manchester","Age 1",0
+"1523","Manchester","Age 10",11
+"1524","Manchester","Age 11",46
+"1525","Manchester","Age 12",61
+"1526","Manchester","Age 13",77
+"1527","Manchester","Age 14",96
+"1528","Manchester","Age 15",71
+"1529","Manchester","Age 16",73
+"1530","Manchester","Age 17",61
+"1531","Manchester","Age 18",48
+"1532","Manchester","Age 19 plus",0
+"1533","Manchester","Age 2",0
+"1534","Manchester","Age 3",0
+"1535","Manchester","Age 4",0
+"1536","Manchester","Age 5",7
+"1537","Manchester","Age 6",7
+"1538","Manchester","Age 7",3
+"1539","Manchester","Age 8",13
+"1540","Manchester","Age 9",12
+"1541","Medway","Age 0",0
+"1542","Medway","Age 1",0
+"1543","Medway","Age 10",11
+"1544","Medway","Age 11",26
+"1545","Medway","Age 12",33
+"1546","Medway","Age 13",52
+"1547","Medway","Age 14",47
+"1548","Medway","Age 15",47
+"1549","Medway","Age 16",35
+"1550","Medway","Age 17",45
+"1551","Medway","Age 18",30
+"1552","Medway","Age 19 plus",2
+"1553","Medway","Age 2",0
+"1554","Medway","Age 3",1
+"1555","Medway","Age 4",0
+"1556","Medway","Age 5",4
+"1557","Medway","Age 6",5
+"1558","Medway","Age 7",5
+"1559","Medway","Age 8",13
+"1560","Medway","Age 9",10
+"1561","Merton","Age 0",0
+"1562","Merton","Age 1",0
+"1563","Merton","Age 10",13
+"1564","Merton","Age 11",39
+"1565","Merton","Age 12",36
+"1566","Merton","Age 13",39
+"1567","Merton","Age 14",45
+"1568","Merton","Age 15",47
+"1569","Merton","Age 16",23
+"1570","Merton","Age 17",20
+"1571","Merton","Age 18",20
+"1572","Merton","Age 19 plus",0
+"1573","Merton","Age 2",0
+"1574","Merton","Age 3",0
+"1575","Merton","Age 4",3
+"1576","Merton","Age 5",3
+"1577","Merton","Age 6",10
+"1578","Merton","Age 7",20
+"1579","Merton","Age 8",10
+"1580","Merton","Age 9",17
+"1581","Middlesbrough","Age 0",0
+"1582","Middlesbrough","Age 1",0
+"1583","Middlesbrough","Age 10",0
+"1584","Middlesbrough","Age 11",7
+"1585","Middlesbrough","Age 12",26
+"1586","Middlesbrough","Age 13",46
+"1587","Middlesbrough","Age 14",52
+"1588","Middlesbrough","Age 15",62
+"1589","Middlesbrough","Age 16",1
+"1590","Middlesbrough","Age 17",1
+"1591","Middlesbrough","Age 18",0
+"1592","Middlesbrough","Age 19 plus",0
+"1593","Middlesbrough","Age 2",0
+"1594","Middlesbrough","Age 3",0
+"1595","Middlesbrough","Age 4",0
+"1596","Middlesbrough","Age 5",0
+"1597","Middlesbrough","Age 6",0
+"1598","Middlesbrough","Age 7",1
+"1599","Middlesbrough","Age 8",0
+"1600","Middlesbrough","Age 9",2
+"1601","Milton Keynes","Age 0",0
+"1602","Milton Keynes","Age 1",0
+"1603","Milton Keynes","Age 10",2
+"1604","Milton Keynes","Age 11",7
+"1605","Milton Keynes","Age 12",13
+"1606","Milton Keynes","Age 13",16
+"1607","Milton Keynes","Age 14",25
+"1608","Milton Keynes","Age 15",22
+"1609","Milton Keynes","Age 16",21
+"1610","Milton Keynes","Age 17",30
+"1611","Milton Keynes","Age 18",22
+"1612","Milton Keynes","Age 19 plus",0
+"1613","Milton Keynes","Age 2",0
+"1614","Milton Keynes","Age 3",0
+"1615","Milton Keynes","Age 4",0
+"1616","Milton Keynes","Age 5",0
+"1617","Milton Keynes","Age 6",0
+"1618","Milton Keynes","Age 7",0
+"1619","Milton Keynes","Age 8",0
+"1620","Milton Keynes","Age 9",2
+"1621","Newcastle upon Tyne","Age 0",0
+"1622","Newcastle upon Tyne","Age 1",0
+"1623","Newcastle upon Tyne","Age 10",23
+"1624","Newcastle upon Tyne","Age 11",32
+"1625","Newcastle upon Tyne","Age 12",20
+"1626","Newcastle upon Tyne","Age 13",24
+"1627","Newcastle upon Tyne","Age 14",24
+"1628","Newcastle upon Tyne","Age 15",45
+"1629","Newcastle upon Tyne","Age 16",19
+"1630","Newcastle upon Tyne","Age 17",8
+"1631","Newcastle upon Tyne","Age 18",6
+"1632","Newcastle upon Tyne","Age 19 plus",0
+"1633","Newcastle upon Tyne","Age 2",0
+"1634","Newcastle upon Tyne","Age 3",0
+"1635","Newcastle upon Tyne","Age 4",5
+"1636","Newcastle upon Tyne","Age 5",10
+"1637","Newcastle upon Tyne","Age 6",5
+"1638","Newcastle upon Tyne","Age 7",15
+"1639","Newcastle upon Tyne","Age 8",14
+"1640","Newcastle upon Tyne","Age 9",15
+"1641","Newham","Age 0",0
+"1642","Newham","Age 1",0
+"1643","Newham","Age 10",3
+"1644","Newham","Age 11",7
+"1645","Newham","Age 12",5
+"1646","Newham","Age 13",12
+"1647","Newham","Age 14",12
+"1648","Newham","Age 15",15
+"1649","Newham","Age 16",8
+"1650","Newham","Age 17",8
+"1651","Newham","Age 18",5
+"1652","Newham","Age 19 plus",0
+"1653","Newham","Age 2",0
+"1654","Newham","Age 3",0
+"1655","Newham","Age 4",1
+"1656","Newham","Age 5",1
+"1657","Newham","Age 6",2
+"1658","Newham","Age 7",1
+"1659","Newham","Age 8",2
+"1660","Newham","Age 9",3
+"1661","Norfolk","Age 0",0
+"1662","Norfolk","Age 1",0
+"1663","Norfolk","Age 10",90
+"1664","Norfolk","Age 11",150
+"1665","Norfolk","Age 12",168
+"1666","Norfolk","Age 13",245
+"1667","Norfolk","Age 14",320
+"1668","Norfolk","Age 15",288
+"1669","Norfolk","Age 16",59
+"1670","Norfolk","Age 17",66
+"1671","Norfolk","Age 18",37
+"1672","Norfolk","Age 19 plus",0
+"1673","Norfolk","Age 2",0
+"1674","Norfolk","Age 3",0
+"1675","Norfolk","Age 4",6
+"1676","Norfolk","Age 5",13
+"1677","Norfolk","Age 6",24
+"1678","Norfolk","Age 7",35
+"1679","Norfolk","Age 8",49
+"1680","Norfolk","Age 9",55
+"1681","North East Lincolnshire","Age 0",0
+"1682","North East Lincolnshire","Age 1",0
+"1683","North East Lincolnshire","Age 10",1
+"1684","North East Lincolnshire","Age 11",15
+"1685","North East Lincolnshire","Age 12",28
+"1686","North East Lincolnshire","Age 13",25
+"1687","North East Lincolnshire","Age 14",33
+"1688","North East Lincolnshire","Age 15",35
+"1689","North East Lincolnshire","Age 16",21
+"1690","North East Lincolnshire","Age 17",18
+"1691","North East Lincolnshire","Age 18",4
+"1692","North East Lincolnshire","Age 19 plus",0
+"1693","North East Lincolnshire","Age 2",0
+"1694","North East Lincolnshire","Age 3",0
+"1695","North East Lincolnshire","Age 4",0
+"1696","North East Lincolnshire","Age 5",0
+"1697","North East Lincolnshire","Age 6",0
+"1698","North East Lincolnshire","Age 7",1
+"1699","North East Lincolnshire","Age 8",1
+"1700","North East Lincolnshire","Age 9",2
+"1701","North Lincolnshire","Age 0",0
+"1702","North Lincolnshire","Age 1",0
+"1703","North Lincolnshire","Age 10",7
+"1704","North Lincolnshire","Age 11",17
+"1705","North Lincolnshire","Age 12",35
+"1706","North Lincolnshire","Age 13",42
+"1707","North Lincolnshire","Age 14",42
+"1708","North Lincolnshire","Age 15",61
+"1709","North Lincolnshire","Age 16",24
+"1710","North Lincolnshire","Age 17",27
+"1711","North Lincolnshire","Age 18",11
+"1712","North Lincolnshire","Age 19 plus",0
+"1713","North Lincolnshire","Age 2",0
+"1714","North Lincolnshire","Age 3",0
+"1715","North Lincolnshire","Age 4",0
+"1716","North Lincolnshire","Age 5",0
+"1717","North Lincolnshire","Age 6",0
+"1718","North Lincolnshire","Age 7",4
+"1719","North Lincolnshire","Age 8",3
+"1720","North Lincolnshire","Age 9",9
+"1721","North Northamptonshire","Age 0",0
+"1722","North Northamptonshire","Age 1",0
+"1723","North Northamptonshire","Age 10",18
+"1724","North Northamptonshire","Age 11",32
+"1725","North Northamptonshire","Age 12",51
+"1726","North Northamptonshire","Age 13",121
+"1727","North Northamptonshire","Age 14",89
+"1728","North Northamptonshire","Age 15",95
+"1729","North Northamptonshire","Age 16",110
+"1730","North Northamptonshire","Age 17",85
+"1731","North Northamptonshire","Age 18",7
+"1732","North Northamptonshire","Age 19 plus",0
+"1733","North Northamptonshire","Age 2",0
+"1734","North Northamptonshire","Age 3",0
+"1735","North Northamptonshire","Age 4",5
+"1736","North Northamptonshire","Age 5",2
+"1737","North Northamptonshire","Age 6",5
+"1738","North Northamptonshire","Age 7",9
+"1739","North Northamptonshire","Age 8",15
+"1740","North Northamptonshire","Age 9",13
+"1741","North Somerset","Age 0",0
+"1742","North Somerset","Age 1",0
+"1743","North Somerset","Age 10",14
+"1744","North Somerset","Age 11",21
+"1745","North Somerset","Age 12",29
+"1746","North Somerset","Age 13",33
+"1747","North Somerset","Age 14",32
+"1748","North Somerset","Age 15",41
+"1749","North Somerset","Age 16",25
+"1750","North Somerset","Age 17",16
+"1751","North Somerset","Age 18",13
+"1752","North Somerset","Age 19 plus",0
+"1753","North Somerset","Age 2",0
+"1754","North Somerset","Age 3",0
+"1755","North Somerset","Age 4",0
+"1756","North Somerset","Age 5",1
+"1757","North Somerset","Age 6",1
+"1758","North Somerset","Age 7",7
+"1759","North Somerset","Age 8",13
+"1760","North Somerset","Age 9",6
+"1761","North Tyneside","Age 0",0
+"1762","North Tyneside","Age 1",0
+"1763","North Tyneside","Age 10",1
+"1764","North Tyneside","Age 11",8
+"1765","North Tyneside","Age 12",9
+"1766","North Tyneside","Age 13",25
+"1767","North Tyneside","Age 14",13
+"1768","North Tyneside","Age 15",15
+"1769","North Tyneside","Age 16",27
+"1770","North Tyneside","Age 17",31
+"1771","North Tyneside","Age 18",23
+"1772","North Tyneside","Age 19 plus",0
+"1773","North Tyneside","Age 2",0
+"1774","North Tyneside","Age 3",0
+"1775","North Tyneside","Age 4",0
+"1776","North Tyneside","Age 5",1
+"1777","North Tyneside","Age 6",1
+"1778","North Tyneside","Age 7",1
+"1779","North Tyneside","Age 8",1
+"1780","North Tyneside","Age 9",5
+"1781","North Yorkshire","Age 0",0
+"1782","North Yorkshire","Age 1",0
+"1783","North Yorkshire","Age 10",19
+"1784","North Yorkshire","Age 11",27
+"1785","North Yorkshire","Age 12",40
+"1786","North Yorkshire","Age 13",54
+"1787","North Yorkshire","Age 14",53
+"1788","North Yorkshire","Age 15",44
+"1789","North Yorkshire","Age 16",31
+"1790","North Yorkshire","Age 17",16
+"1791","North Yorkshire","Age 18",5
+"1792","North Yorkshire","Age 19 plus",0
+"1793","North Yorkshire","Age 2",0
+"1794","North Yorkshire","Age 3",0
+"1795","North Yorkshire","Age 4",0
+"1796","North Yorkshire","Age 5",1
+"1797","North Yorkshire","Age 6",0
+"1798","North Yorkshire","Age 7",7
+"1799","North Yorkshire","Age 8",12
+"1800","North Yorkshire","Age 9",10
+"1801","Northumberland","Age 0",0
+"1802","Northumberland","Age 1",0
+"1803","Northumberland","Age 10",9
+"1804","Northumberland","Age 11",17
+"1805","Northumberland","Age 12",40
+"1806","Northumberland","Age 13",69
+"1807","Northumberland","Age 14",90
+"1808","Northumberland","Age 15",91
+"1809","Northumberland","Age 16",49
+"1810","Northumberland","Age 17",45
+"1811","Northumberland","Age 18",27
+"1812","Northumberland","Age 19 plus",5
+"1813","Northumberland","Age 2",0
+"1814","Northumberland","Age 3",0
+"1815","Northumberland","Age 4",2
+"1816","Northumberland","Age 5",3
+"1817","Northumberland","Age 6",2
+"1818","Northumberland","Age 7",2
+"1819","Northumberland","Age 8",3
+"1820","Northumberland","Age 9",6
+"1821","Nottingham","Age 0",0
+"1822","Nottingham","Age 1",0
+"1823","Nottingham","Age 10",7
+"1824","Nottingham","Age 11",6
+"1825","Nottingham","Age 12",9
+"1826","Nottingham","Age 13",6
+"1827","Nottingham","Age 14",16
+"1828","Nottingham","Age 15",17
+"1829","Nottingham","Age 16",27
+"1830","Nottingham","Age 17",36
+"1831","Nottingham","Age 18",20
+"1832","Nottingham","Age 19 plus",0
+"1833","Nottingham","Age 2",0
+"1834","Nottingham","Age 3",0
+"1835","Nottingham","Age 4",0
+"1836","Nottingham","Age 5",1
+"1837","Nottingham","Age 6",0
+"1838","Nottingham","Age 7",2
+"1839","Nottingham","Age 8",5
+"1840","Nottingham","Age 9",5
+"1841","Nottinghamshire","Age 0",0
+"1842","Nottinghamshire","Age 1",0
+"1843","Nottinghamshire","Age 10",22
+"1844","Nottinghamshire","Age 11",55
+"1845","Nottinghamshire","Age 12",126
+"1846","Nottinghamshire","Age 13",167
+"1847","Nottinghamshire","Age 14",205
+"1848","Nottinghamshire","Age 15",228
+"1849","Nottinghamshire","Age 16",84
+"1850","Nottinghamshire","Age 17",54
+"1851","Nottinghamshire","Age 18",33
+"1852","Nottinghamshire","Age 19 plus",39
+"1853","Nottinghamshire","Age 2",0
+"1854","Nottinghamshire","Age 3",0
+"1855","Nottinghamshire","Age 4",1
+"1856","Nottinghamshire","Age 5",3
+"1857","Nottinghamshire","Age 6",6
+"1858","Nottinghamshire","Age 7",7
+"1859","Nottinghamshire","Age 8",10
+"1860","Nottinghamshire","Age 9",23
+"1861","Oldham","Age 0",0
+"1862","Oldham","Age 1",0
+"1863","Oldham","Age 10",3
+"1864","Oldham","Age 11",0
+"1865","Oldham","Age 12",2
+"1866","Oldham","Age 13",5
+"1867","Oldham","Age 14",5
+"1868","Oldham","Age 15",1
+"1869","Oldham","Age 16",13
+"1870","Oldham","Age 17",2
+"1871","Oldham","Age 18",2
+"1872","Oldham","Age 19 plus",1
+"1873","Oldham","Age 2",0
+"1874","Oldham","Age 3",0
+"1875","Oldham","Age 4",0
+"1876","Oldham","Age 5",0
+"1877","Oldham","Age 6",2
+"1878","Oldham","Age 7",2
+"1879","Oldham","Age 8",1
+"1880","Oldham","Age 9",0
+"1881","Oxfordshire","Age 0",0
+"1882","Oxfordshire","Age 1",0
+"1883","Oxfordshire","Age 10",36
+"1884","Oxfordshire","Age 11",79
+"1885","Oxfordshire","Age 12",81
+"1886","Oxfordshire","Age 13",107
+"1887","Oxfordshire","Age 14",103
+"1888","Oxfordshire","Age 15",82
+"1889","Oxfordshire","Age 16",85
+"1890","Oxfordshire","Age 17",62
+"1891","Oxfordshire","Age 18",37
+"1892","Oxfordshire","Age 19 plus",0
+"1893","Oxfordshire","Age 2",0
+"1894","Oxfordshire","Age 3",1
+"1895","Oxfordshire","Age 4",0
+"1896","Oxfordshire","Age 5",6
+"1897","Oxfordshire","Age 6",17
+"1898","Oxfordshire","Age 7",19
+"1899","Oxfordshire","Age 8",17
+"1900","Oxfordshire","Age 9",26
+"1901","Peterborough","Age 0",0
+"1902","Peterborough","Age 1",0
+"1903","Peterborough","Age 10",15
+"1904","Peterborough","Age 11",12
+"1905","Peterborough","Age 12",22
+"1906","Peterborough","Age 13",14
+"1907","Peterborough","Age 14",28
+"1908","Peterborough","Age 15",18
+"1909","Peterborough","Age 16",11
+"1910","Peterborough","Age 17",3
+"1911","Peterborough","Age 18",1
+"1912","Peterborough","Age 19 plus",0
+"1913","Peterborough","Age 2",0
+"1914","Peterborough","Age 3",0
+"1915","Peterborough","Age 4",0
+"1916","Peterborough","Age 5",0
+"1917","Peterborough","Age 6",0
+"1918","Peterborough","Age 7",1
+"1919","Peterborough","Age 8",7
+"1920","Peterborough","Age 9",9
+"1921","Plymouth","Age 0",0
+"1922","Plymouth","Age 1",0
+"1923","Plymouth","Age 10",7
+"1924","Plymouth","Age 11",17
+"1925","Plymouth","Age 12",13
+"1926","Plymouth","Age 13",17
+"1927","Plymouth","Age 14",12
+"1928","Plymouth","Age 15",10
+"1929","Plymouth","Age 16",14
+"1930","Plymouth","Age 17",11
+"1931","Plymouth","Age 18",8
+"1932","Plymouth","Age 19 plus",0
+"1933","Plymouth","Age 2",0
+"1934","Plymouth","Age 3",0
+"1935","Plymouth","Age 4",5
+"1936","Plymouth","Age 5",7
+"1937","Plymouth","Age 6",4
+"1938","Plymouth","Age 7",11
+"1939","Plymouth","Age 8",3
+"1940","Plymouth","Age 9",5
+"1941","Portsmouth","Age 0",0
+"1942","Portsmouth","Age 1",0
+"1943","Portsmouth","Age 10",1
+"1944","Portsmouth","Age 11",7
+"1945","Portsmouth","Age 12",1
+"1946","Portsmouth","Age 13",5
+"1947","Portsmouth","Age 14",4
+"1948","Portsmouth","Age 15",5
+"1949","Portsmouth","Age 16",2
+"1950","Portsmouth","Age 17",7
+"1951","Portsmouth","Age 18",5
+"1952","Portsmouth","Age 19 plus",0
+"1953","Portsmouth","Age 2",0
+"1954","Portsmouth","Age 3",0
+"1955","Portsmouth","Age 4",0
+"1956","Portsmouth","Age 5",0
+"1957","Portsmouth","Age 6",0
+"1958","Portsmouth","Age 7",3
+"1959","Portsmouth","Age 8",1
+"1960","Portsmouth","Age 9",4
+"1961","Reading","Age 0",0
+"1962","Reading","Age 1",0
+"1963","Reading","Age 10",7
+"1964","Reading","Age 11",26
+"1965","Reading","Age 12",27
+"1966","Reading","Age 13",21
+"1967","Reading","Age 14",24
+"1968","Reading","Age 15",25
+"1969","Reading","Age 16",14
+"1970","Reading","Age 17",5
+"1971","Reading","Age 18",3
+"1972","Reading","Age 19 plus",0
+"1973","Reading","Age 2",0
+"1974","Reading","Age 3",0
+"1975","Reading","Age 4",0
+"1976","Reading","Age 5",2
+"1977","Reading","Age 6",4
+"1978","Reading","Age 7",6
+"1979","Reading","Age 8",6
+"1980","Reading","Age 9",7
+"1981","Redbridge","Age 0",0
+"1982","Redbridge","Age 1",0
+"1983","Redbridge","Age 10",8
+"1984","Redbridge","Age 11",15
+"1985","Redbridge","Age 12",18
+"1986","Redbridge","Age 13",8
+"1987","Redbridge","Age 14",16
+"1988","Redbridge","Age 15",56
+"1989","Redbridge","Age 16",26
+"1990","Redbridge","Age 17",17
+"1991","Redbridge","Age 18",8
+"1992","Redbridge","Age 19 plus",0
+"1993","Redbridge","Age 2",0
+"1994","Redbridge","Age 3",0
+"1995","Redbridge","Age 4",1
+"1996","Redbridge","Age 5",0
+"1997","Redbridge","Age 6",6
+"1998","Redbridge","Age 7",4
+"1999","Redbridge","Age 8",2
+"2000","Redbridge","Age 9",6
+"2001","Redcar and Cleveland","Age 0",0
+"2002","Redcar and Cleveland","Age 1",0
+"2003","Redcar and Cleveland","Age 10",8
+"2004","Redcar and Cleveland","Age 11",13
+"2005","Redcar and Cleveland","Age 12",15
+"2006","Redcar and Cleveland","Age 13",17
+"2007","Redcar and Cleveland","Age 14",28
+"2008","Redcar and Cleveland","Age 15",26
+"2009","Redcar and Cleveland","Age 16",4
+"2010","Redcar and Cleveland","Age 17",2
+"2011","Redcar and Cleveland","Age 18",0
+"2012","Redcar and Cleveland","Age 19 plus",0
+"2013","Redcar and Cleveland","Age 2",0
+"2014","Redcar and Cleveland","Age 3",0
+"2015","Redcar and Cleveland","Age 4",0
+"2016","Redcar and Cleveland","Age 5",5
+"2017","Redcar and Cleveland","Age 6",1
+"2018","Redcar and Cleveland","Age 7",0
+"2019","Redcar and Cleveland","Age 8",3
+"2020","Redcar and Cleveland","Age 9",1
+"2021","Richmond upon Thames","Age 0",0
+"2022","Richmond upon Thames","Age 1",0
+"2023","Richmond upon Thames","Age 10",10
+"2024","Richmond upon Thames","Age 11",15
+"2025","Richmond upon Thames","Age 12",31
+"2026","Richmond upon Thames","Age 13",32
+"2027","Richmond upon Thames","Age 14",24
+"2028","Richmond upon Thames","Age 15",23
+"2029","Richmond upon Thames","Age 16",30
+"2030","Richmond upon Thames","Age 17",22
+"2031","Richmond upon Thames","Age 18",19
+"2032","Richmond upon Thames","Age 19 plus",0
+"2033","Richmond upon Thames","Age 2",0
+"2034","Richmond upon Thames","Age 3",0
+"2035","Richmond upon Thames","Age 4",0
+"2036","Richmond upon Thames","Age 5",3
+"2037","Richmond upon Thames","Age 6",5
+"2038","Richmond upon Thames","Age 7",2
+"2039","Richmond upon Thames","Age 8",9
+"2040","Richmond upon Thames","Age 9",7
+"2041","Rochdale","Age 0",0
+"2042","Rochdale","Age 1",0
+"2043","Rochdale","Age 10",8
+"2044","Rochdale","Age 11",22
+"2045","Rochdale","Age 12",20
+"2046","Rochdale","Age 13",19
+"2047","Rochdale","Age 14",28
+"2048","Rochdale","Age 15",27
+"2049","Rochdale","Age 16",14
+"2050","Rochdale","Age 17",20
+"2051","Rochdale","Age 18",9
+"2052","Rochdale","Age 19 plus",0
+"2053","Rochdale","Age 2",0
+"2054","Rochdale","Age 3",1
+"2055","Rochdale","Age 4",2
+"2056","Rochdale","Age 5",3
+"2057","Rochdale","Age 6",2
+"2058","Rochdale","Age 7",6
+"2059","Rochdale","Age 8",6
+"2060","Rochdale","Age 9",8
+"2061","Rotherham","Age 0",0
+"2062","Rotherham","Age 1",0
+"2063","Rotherham","Age 10",7
+"2064","Rotherham","Age 11",22
+"2065","Rotherham","Age 12",14
+"2066","Rotherham","Age 13",16
+"2067","Rotherham","Age 14",31
+"2068","Rotherham","Age 15",24
+"2069","Rotherham","Age 16",44
+"2070","Rotherham","Age 17",40
+"2071","Rotherham","Age 18",26
+"2072","Rotherham","Age 19 plus",0
+"2073","Rotherham","Age 2",0
+"2074","Rotherham","Age 3",0
+"2075","Rotherham","Age 4",0
+"2076","Rotherham","Age 5",0
+"2077","Rotherham","Age 6",1
+"2078","Rotherham","Age 7",2
+"2079","Rotherham","Age 8",4
+"2080","Rotherham","Age 9",1
+"2081","Rutland","Age 0",0
+"2082","Rutland","Age 1",0
+"2083","Rutland","Age 10",1
+"2084","Rutland","Age 11",10
+"2085","Rutland","Age 12",6
+"2086","Rutland","Age 13",7
+"2087","Rutland","Age 14",6
+"2088","Rutland","Age 15",3
+"2089","Rutland","Age 16",4
+"2090","Rutland","Age 17",2
+"2091","Rutland","Age 18",1
+"2092","Rutland","Age 19 plus",0
+"2093","Rutland","Age 2",0
+"2094","Rutland","Age 3",1
+"2095","Rutland","Age 4",0
+"2096","Rutland","Age 5",1
+"2097","Rutland","Age 6",1
+"2098","Rutland","Age 7",2
+"2099","Rutland","Age 8",3
+"2100","Rutland","Age 9",5
+"2101","Salford","Age 0",0
+"2102","Salford","Age 1",1
+"2103","Salford","Age 10",13
+"2104","Salford","Age 11",27
+"2105","Salford","Age 12",29
+"2106","Salford","Age 13",32
+"2107","Salford","Age 14",50
+"2108","Salford","Age 15",50
+"2109","Salford","Age 16",39
+"2110","Salford","Age 17",39
+"2111","Salford","Age 18",24
+"2112","Salford","Age 19 plus",0
+"2113","Salford","Age 2",1
+"2114","Salford","Age 3",1
+"2115","Salford","Age 4",3
+"2116","Salford","Age 5",4
+"2117","Salford","Age 6",5
+"2118","Salford","Age 7",5
+"2119","Salford","Age 8",7
+"2120","Salford","Age 9",12
+"2121","Sandwell","Age 0",0
+"2122","Sandwell","Age 1",0
+"2123","Sandwell","Age 10",11
+"2124","Sandwell","Age 11",22
+"2125","Sandwell","Age 12",47
+"2126","Sandwell","Age 13",33
+"2127","Sandwell","Age 14",36
+"2128","Sandwell","Age 15",35
+"2129","Sandwell","Age 16",28
+"2130","Sandwell","Age 17",29
+"2131","Sandwell","Age 18",40
+"2132","Sandwell","Age 19 plus",83
+"2133","Sandwell","Age 2",0
+"2134","Sandwell","Age 3",0
+"2135","Sandwell","Age 4",1
+"2136","Sandwell","Age 5",5
+"2137","Sandwell","Age 6",6
+"2138","Sandwell","Age 7",4
+"2139","Sandwell","Age 8",6
+"2140","Sandwell","Age 9",10
+"2141","Sefton","Age 0",0
+"2142","Sefton","Age 1",0
+"2143","Sefton","Age 10",12
+"2144","Sefton","Age 11",33
+"2145","Sefton","Age 12",18
+"2146","Sefton","Age 13",31
+"2147","Sefton","Age 14",50
+"2148","Sefton","Age 15",45
+"2149","Sefton","Age 16",14
+"2150","Sefton","Age 17",10
+"2151","Sefton","Age 18",10
+"2152","Sefton","Age 19 plus",0
+"2153","Sefton","Age 2",0
+"2154","Sefton","Age 3",1
+"2155","Sefton","Age 4",11
+"2156","Sefton","Age 5",16
+"2157","Sefton","Age 6",13
+"2158","Sefton","Age 7",16
+"2159","Sefton","Age 8",15
+"2160","Sefton","Age 9",17
+"2161","Sheffield","Age 0",0
+"2162","Sheffield","Age 1",0
+"2163","Sheffield","Age 10",3
+"2164","Sheffield","Age 11",10
+"2165","Sheffield","Age 12",14
+"2166","Sheffield","Age 13",21
+"2167","Sheffield","Age 14",19
+"2168","Sheffield","Age 15",28
+"2169","Sheffield","Age 16",19
+"2170","Sheffield","Age 17",15
+"2171","Sheffield","Age 18",5
+"2172","Sheffield","Age 19 plus",0
+"2173","Sheffield","Age 2",0
+"2174","Sheffield","Age 3",0
+"2175","Sheffield","Age 4",0
+"2176","Sheffield","Age 5",1
+"2177","Sheffield","Age 6",0
+"2178","Sheffield","Age 7",4
+"2179","Sheffield","Age 8",5
+"2180","Sheffield","Age 9",6
+"2181","Shropshire","Age 0",0
+"2182","Shropshire","Age 1",0
+"2183","Shropshire","Age 10",20
+"2184","Shropshire","Age 11",18
+"2185","Shropshire","Age 12",18
+"2186","Shropshire","Age 13",24
+"2187","Shropshire","Age 14",37
+"2188","Shropshire","Age 15",39
+"2189","Shropshire","Age 16",37
+"2190","Shropshire","Age 17",24
+"2191","Shropshire","Age 18",22
+"2192","Shropshire","Age 19 plus",0
+"2193","Shropshire","Age 2",0
+"2194","Shropshire","Age 3",0
+"2195","Shropshire","Age 4",0
+"2196","Shropshire","Age 5",0
+"2197","Shropshire","Age 6",3
+"2198","Shropshire","Age 7",11
+"2199","Shropshire","Age 8",10
+"2200","Shropshire","Age 9",14
+"2201","Slough","Age 0",0
+"2202","Slough","Age 1",0
+"2203","Slough","Age 10",3
+"2204","Slough","Age 11",7
+"2205","Slough","Age 12",3
+"2206","Slough","Age 13",10
+"2207","Slough","Age 14",8
+"2208","Slough","Age 15",2
+"2209","Slough","Age 16",9
+"2210","Slough","Age 17",10
+"2211","Slough","Age 18",8
+"2212","Slough","Age 19 plus",0
+"2213","Slough","Age 2",0
+"2214","Slough","Age 3",0
+"2215","Slough","Age 4",0
+"2216","Slough","Age 5",3
+"2217","Slough","Age 6",2
+"2218","Slough","Age 7",1
+"2219","Slough","Age 8",2
+"2220","Slough","Age 9",7
+"2221","Solihull","Age 0",0
+"2222","Solihull","Age 1",0
+"2223","Solihull","Age 10",17
+"2224","Solihull","Age 11",12
+"2225","Solihull","Age 12",18
+"2226","Solihull","Age 13",32
+"2227","Solihull","Age 14",43
+"2228","Solihull","Age 15",47
+"2229","Solihull","Age 16",33
+"2230","Solihull","Age 17",12
+"2231","Solihull","Age 18",6
+"2232","Solihull","Age 19 plus",0
+"2233","Solihull","Age 2",0
+"2234","Solihull","Age 3",0
+"2235","Solihull","Age 4",0
+"2236","Solihull","Age 5",3
+"2237","Solihull","Age 6",6
+"2238","Solihull","Age 7",3
+"2239","Solihull","Age 8",6
+"2240","Solihull","Age 9",5
+"2241","Somerset","Age 0",0
+"2242","Somerset","Age 1",0
+"2243","Somerset","Age 10",31
+"2244","Somerset","Age 11",65
+"2245","Somerset","Age 12",93
+"2246","Somerset","Age 13",83
+"2247","Somerset","Age 14",104
+"2248","Somerset","Age 15",103
+"2249","Somerset","Age 16",95
+"2250","Somerset","Age 17",71
+"2251","Somerset","Age 18",31
+"2252","Somerset","Age 19 plus",0
+"2253","Somerset","Age 2",0
+"2254","Somerset","Age 3",0
+"2255","Somerset","Age 4",0
+"2256","Somerset","Age 5",3
+"2257","Somerset","Age 6",2
+"2258","Somerset","Age 7",15
+"2259","Somerset","Age 8",18
+"2260","Somerset","Age 9",25
+"2261","South Gloucestershire","Age 0",0
+"2262","South Gloucestershire","Age 1",0
+"2263","South Gloucestershire","Age 10",4
+"2264","South Gloucestershire","Age 11",25
+"2265","South Gloucestershire","Age 12",26
+"2266","South Gloucestershire","Age 13",31
+"2267","South Gloucestershire","Age 14",24
+"2268","South Gloucestershire","Age 15",15
+"2269","South Gloucestershire","Age 16",52
+"2270","South Gloucestershire","Age 17",52
+"2271","South Gloucestershire","Age 18",36
+"2272","South Gloucestershire","Age 19 plus",0
+"2273","South Gloucestershire","Age 2",0
+"2274","South Gloucestershire","Age 3",0
+"2275","South Gloucestershire","Age 4",0
+"2276","South Gloucestershire","Age 5",0
+"2277","South Gloucestershire","Age 6",0
+"2278","South Gloucestershire","Age 7",8
+"2279","South Gloucestershire","Age 8",4
+"2280","South Gloucestershire","Age 9",6
+"2281","South Tyneside","Age 0",0
+"2282","South Tyneside","Age 1",0
+"2283","South Tyneside","Age 10",12
+"2284","South Tyneside","Age 11",8
+"2285","South Tyneside","Age 12",10
+"2286","South Tyneside","Age 13",12
+"2287","South Tyneside","Age 14",18
+"2288","South Tyneside","Age 15",27
+"2289","South Tyneside","Age 16",5
+"2290","South Tyneside","Age 17",5
+"2291","South Tyneside","Age 18",5
+"2292","South Tyneside","Age 19 plus",0
+"2293","South Tyneside","Age 2",0
+"2294","South Tyneside","Age 3",0
+"2295","South Tyneside","Age 4",0
+"2296","South Tyneside","Age 5",10
+"2297","South Tyneside","Age 6",9
+"2298","South Tyneside","Age 7",5
+"2299","South Tyneside","Age 8",2
+"2300","South Tyneside","Age 9",4
+"2301","Southampton","Age 0",0
+"2302","Southampton","Age 1",0
+"2303","Southampton","Age 10",2
+"2304","Southampton","Age 11",1
+"2305","Southampton","Age 12",2
+"2306","Southampton","Age 13",5
+"2307","Southampton","Age 14",5
+"2308","Southampton","Age 15",11
+"2309","Southampton","Age 16",9
+"2310","Southampton","Age 17",13
+"2311","Southampton","Age 18",5
+"2312","Southampton","Age 19 plus",4
+"2313","Southampton","Age 2",0
+"2314","Southampton","Age 3",0
+"2315","Southampton","Age 4",0
+"2316","Southampton","Age 5",0
+"2317","Southampton","Age 6",0
+"2318","Southampton","Age 7",1
+"2319","Southampton","Age 8",0
+"2320","Southampton","Age 9",0
+"2321","Southend-on-Sea","Age 0",0
+"2322","Southend-on-Sea","Age 1",0
+"2323","Southend-on-Sea","Age 10",3
+"2324","Southend-on-Sea","Age 11",6
+"2325","Southend-on-Sea","Age 12",4
+"2326","Southend-on-Sea","Age 13",5
+"2327","Southend-on-Sea","Age 14",4
+"2328","Southend-on-Sea","Age 15",12
+"2329","Southend-on-Sea","Age 16",6
+"2330","Southend-on-Sea","Age 17",0
+"2331","Southend-on-Sea","Age 18",2
+"2332","Southend-on-Sea","Age 19 plus",2
+"2333","Southend-on-Sea","Age 2",0
+"2334","Southend-on-Sea","Age 3",0
+"2335","Southend-on-Sea","Age 4",0
+"2336","Southend-on-Sea","Age 5",1
+"2337","Southend-on-Sea","Age 6",0
+"2338","Southend-on-Sea","Age 7",0
+"2339","Southend-on-Sea","Age 8",3
+"2340","Southend-on-Sea","Age 9",4
+"2341","Southwark","Age 0",0
+"2342","Southwark","Age 1",0
+"2343","Southwark","Age 10",9
+"2344","Southwark","Age 11",29
+"2345","Southwark","Age 12",21
+"2346","Southwark","Age 13",19
+"2347","Southwark","Age 14",47
+"2348","Southwark","Age 15",64
+"2349","Southwark","Age 16",27
+"2350","Southwark","Age 17",39
+"2351","Southwark","Age 18",31
+"2352","Southwark","Age 19 plus",0
+"2353","Southwark","Age 2",0
+"2354","Southwark","Age 3",0
+"2355","Southwark","Age 4",1
+"2356","Southwark","Age 5",11
+"2357","Southwark","Age 6",3
+"2358","Southwark","Age 7",12
+"2359","Southwark","Age 8",10
+"2360","Southwark","Age 9",14
+"2361","St. Helens","Age 0",0
+"2362","St. Helens","Age 1",0
+"2363","St. Helens","Age 10",12
+"2364","St. Helens","Age 11",19
+"2365","St. Helens","Age 12",26
+"2366","St. Helens","Age 13",17
+"2367","St. Helens","Age 14",19
+"2368","St. Helens","Age 15",16
+"2369","St. Helens","Age 16",23
+"2370","St. Helens","Age 17",7
+"2371","St. Helens","Age 18",0
+"2372","St. Helens","Age 19 plus",0
+"2373","St. Helens","Age 2",0
+"2374","St. Helens","Age 3",0
+"2375","St. Helens","Age 4",0
+"2376","St. Helens","Age 5",3
+"2377","St. Helens","Age 6",11
+"2378","St. Helens","Age 7",6
+"2379","St. Helens","Age 8",11
+"2380","St. Helens","Age 9",10
+"2381","Staffordshire","Age 0",0
+"2382","Staffordshire","Age 1",0
+"2383","Staffordshire","Age 10",48
+"2384","Staffordshire","Age 11",100
+"2385","Staffordshire","Age 12",104
+"2386","Staffordshire","Age 13",142
+"2387","Staffordshire","Age 14",141
+"2388","Staffordshire","Age 15",142
+"2389","Staffordshire","Age 16",72
+"2390","Staffordshire","Age 17",59
+"2391","Staffordshire","Age 18",20
+"2392","Staffordshire","Age 19 plus",0
+"2393","Staffordshire","Age 2",0
+"2394","Staffordshire","Age 3",0
+"2395","Staffordshire","Age 4",4
+"2396","Staffordshire","Age 5",18
+"2397","Staffordshire","Age 6",24
+"2398","Staffordshire","Age 7",21
+"2399","Staffordshire","Age 8",32
+"2400","Staffordshire","Age 9",36
+"2401","Stockport","Age 0",0
+"2402","Stockport","Age 1",0
+"2403","Stockport","Age 10",11
+"2404","Stockport","Age 11",30
+"2405","Stockport","Age 12",37
+"2406","Stockport","Age 13",49
+"2407","Stockport","Age 14",52
+"2408","Stockport","Age 15",68
+"2409","Stockport","Age 16",19
+"2410","Stockport","Age 17",4
+"2411","Stockport","Age 18",6
+"2412","Stockport","Age 19 plus",0
+"2413","Stockport","Age 2",0
+"2414","Stockport","Age 3",0
+"2415","Stockport","Age 4",1
+"2416","Stockport","Age 5",2
+"2417","Stockport","Age 6",4
+"2418","Stockport","Age 7",0
+"2419","Stockport","Age 8",3
+"2420","Stockport","Age 9",8
+"2421","Stockton-on-Tees","Age 0",0
+"2422","Stockton-on-Tees","Age 1",0
+"2423","Stockton-on-Tees","Age 10",7
+"2424","Stockton-on-Tees","Age 11",14
+"2425","Stockton-on-Tees","Age 12",22
+"2426","Stockton-on-Tees","Age 13",49
+"2427","Stockton-on-Tees","Age 14",34
+"2428","Stockton-on-Tees","Age 15",46
+"2429","Stockton-on-Tees","Age 16",20
+"2430","Stockton-on-Tees","Age 17",9
+"2431","Stockton-on-Tees","Age 18",5
+"2432","Stockton-on-Tees","Age 19 plus",0
+"2433","Stockton-on-Tees","Age 2",0
+"2434","Stockton-on-Tees","Age 3",0
+"2435","Stockton-on-Tees","Age 4",0
+"2436","Stockton-on-Tees","Age 5",4
+"2437","Stockton-on-Tees","Age 6",2
+"2438","Stockton-on-Tees","Age 7",2
+"2439","Stockton-on-Tees","Age 8",3
+"2440","Stockton-on-Tees","Age 9",10
+"2441","Stoke-on-Trent","Age 0",0
+"2442","Stoke-on-Trent","Age 1",0
+"2443","Stoke-on-Trent","Age 10",31
+"2444","Stoke-on-Trent","Age 11",38
+"2445","Stoke-on-Trent","Age 12",33
+"2446","Stoke-on-Trent","Age 13",81
+"2447","Stoke-on-Trent","Age 14",85
+"2448","Stoke-on-Trent","Age 15",112
+"2449","Stoke-on-Trent","Age 16",96
+"2450","Stoke-on-Trent","Age 17",91
+"2451","Stoke-on-Trent","Age 18",79
+"2452","Stoke-on-Trent","Age 19 plus",0
+"2453","Stoke-on-Trent","Age 2",0
+"2454","Stoke-on-Trent","Age 3",1
+"2455","Stoke-on-Trent","Age 4",8
+"2456","Stoke-on-Trent","Age 5",15
+"2457","Stoke-on-Trent","Age 6",28
+"2458","Stoke-on-Trent","Age 7",34
+"2459","Stoke-on-Trent","Age 8",35
+"2460","Stoke-on-Trent","Age 9",35
+"2461","Suffolk","Age 0",0
+"2462","Suffolk","Age 1",0
+"2463","Suffolk","Age 10",52
+"2464","Suffolk","Age 11",81
+"2465","Suffolk","Age 12",85
+"2466","Suffolk","Age 13",115
+"2467","Suffolk","Age 14",129
+"2468","Suffolk","Age 15",119
+"2469","Suffolk","Age 16",70
+"2470","Suffolk","Age 17",50
+"2471","Suffolk","Age 18",31
+"2472","Suffolk","Age 19 plus",0
+"2473","Suffolk","Age 2",0
+"2474","Suffolk","Age 3",0
+"2475","Suffolk","Age 4",6
+"2476","Suffolk","Age 5",6
+"2477","Suffolk","Age 6",15
+"2478","Suffolk","Age 7",31
+"2479","Suffolk","Age 8",33
+"2480","Suffolk","Age 9",51
+"2481","Sunderland","Age 0",0
+"2482","Sunderland","Age 1",0
+"2483","Sunderland","Age 10",8
+"2484","Sunderland","Age 11",17
+"2485","Sunderland","Age 12",29
+"2486","Sunderland","Age 13",20
+"2487","Sunderland","Age 14",32
+"2488","Sunderland","Age 15",23
+"2489","Sunderland","Age 16",28
+"2490","Sunderland","Age 17",25
+"2491","Sunderland","Age 18",21
+"2492","Sunderland","Age 19 plus",104
+"2493","Sunderland","Age 2",0
+"2494","Sunderland","Age 3",0
+"2495","Sunderland","Age 4",0
+"2496","Sunderland","Age 5",3
+"2497","Sunderland","Age 6",2
+"2498","Sunderland","Age 7",6
+"2499","Sunderland","Age 8",5
+"2500","Sunderland","Age 9",8
+"2501","Surrey","Age 0",0
+"2502","Surrey","Age 1",0
+"2503","Surrey","Age 10",117
+"2504","Surrey","Age 11",223
+"2505","Surrey","Age 12",268
+"2506","Surrey","Age 13",263
+"2507","Surrey","Age 14",270
+"2508","Surrey","Age 15",280
+"2509","Surrey","Age 16",174
+"2510","Surrey","Age 17",156
+"2511","Surrey","Age 18",104
+"2512","Surrey","Age 19 plus",0
+"2513","Surrey","Age 2",0
+"2514","Surrey","Age 3",0
+"2515","Surrey","Age 4",21
+"2516","Surrey","Age 5",61
+"2517","Surrey","Age 6",74
+"2518","Surrey","Age 7",75
+"2519","Surrey","Age 8",98
+"2520","Surrey","Age 9",93
+"2521","Sutton","Age 0",0
+"2522","Sutton","Age 1",0
+"2523","Sutton","Age 10",12
+"2524","Sutton","Age 11",40
+"2525","Sutton","Age 12",45
+"2526","Sutton","Age 13",36
+"2527","Sutton","Age 14",32
+"2528","Sutton","Age 15",35
+"2529","Sutton","Age 16",17
+"2530","Sutton","Age 17",12
+"2531","Sutton","Age 18",7
+"2532","Sutton","Age 19 plus",0
+"2533","Sutton","Age 2",0
+"2534","Sutton","Age 3",0
+"2535","Sutton","Age 4",2
+"2536","Sutton","Age 5",5
+"2537","Sutton","Age 6",5
+"2538","Sutton","Age 7",6
+"2539","Sutton","Age 8",7
+"2540","Sutton","Age 9",13
+"2541","Swindon","Age 0",0
+"2542","Swindon","Age 1",0
+"2543","Swindon","Age 10",1
+"2544","Swindon","Age 11",2
+"2545","Swindon","Age 12",6
+"2546","Swindon","Age 13",7
+"2547","Swindon","Age 14",4
+"2548","Swindon","Age 15",13
+"2549","Swindon","Age 16",7
+"2550","Swindon","Age 17",4
+"2551","Swindon","Age 18",6
+"2552","Swindon","Age 19 plus",0
+"2553","Swindon","Age 2",0
+"2554","Swindon","Age 3",0
+"2555","Swindon","Age 4",0
+"2556","Swindon","Age 5",0
+"2557","Swindon","Age 6",1
+"2558","Swindon","Age 7",0
+"2559","Swindon","Age 8",2
+"2560","Swindon","Age 9",0
+"2561","Tameside","Age 0",0
+"2562","Tameside","Age 1",0
+"2563","Tameside","Age 10",5
+"2564","Tameside","Age 11",28
+"2565","Tameside","Age 12",23
+"2566","Tameside","Age 13",40
+"2567","Tameside","Age 14",38
+"2568","Tameside","Age 15",33
+"2569","Tameside","Age 16",18
+"2570","Tameside","Age 17",27
+"2571","Tameside","Age 18",22
+"2572","Tameside","Age 19 plus",29
+"2573","Tameside","Age 2",0
+"2574","Tameside","Age 3",0
+"2575","Tameside","Age 4",0
+"2576","Tameside","Age 5",1
+"2577","Tameside","Age 6",3
+"2578","Tameside","Age 7",5
+"2579","Tameside","Age 8",5
+"2580","Tameside","Age 9",6
+"2581","Telford and Wrekin","Age 0",0
+"2582","Telford and Wrekin","Age 1",0
+"2583","Telford and Wrekin","Age 10",4
+"2584","Telford and Wrekin","Age 11",3
+"2585","Telford and Wrekin","Age 12",5
+"2586","Telford and Wrekin","Age 13",7
+"2587","Telford and Wrekin","Age 14",15
+"2588","Telford and Wrekin","Age 15",17
+"2589","Telford and Wrekin","Age 16",13
+"2590","Telford and Wrekin","Age 17",10
+"2591","Telford and Wrekin","Age 18",10
+"2592","Telford and Wrekin","Age 19 plus",8
+"2593","Telford and Wrekin","Age 2",0
+"2594","Telford and Wrekin","Age 3",0
+"2595","Telford and Wrekin","Age 4",0
+"2596","Telford and Wrekin","Age 5",0
+"2597","Telford and Wrekin","Age 6",0
+"2598","Telford and Wrekin","Age 7",1
+"2599","Telford and Wrekin","Age 8",2
+"2600","Telford and Wrekin","Age 9",2
+"2601","Thurrock","Age 0",0
+"2602","Thurrock","Age 1",0
+"2603","Thurrock","Age 10",2
+"2604","Thurrock","Age 11",14
+"2605","Thurrock","Age 12",11
+"2606","Thurrock","Age 13",19
+"2607","Thurrock","Age 14",20
+"2608","Thurrock","Age 15",29
+"2609","Thurrock","Age 16",10
+"2610","Thurrock","Age 17",1
+"2611","Thurrock","Age 18",4
+"2612","Thurrock","Age 19 plus",0
+"2613","Thurrock","Age 2",0
+"2614","Thurrock","Age 3",0
+"2615","Thurrock","Age 4",0
+"2616","Thurrock","Age 5",1
+"2617","Thurrock","Age 6",0
+"2618","Thurrock","Age 7",0
+"2619","Thurrock","Age 8",5
+"2620","Thurrock","Age 9",3
+"2621","Torbay","Age 0",0
+"2622","Torbay","Age 1",0
+"2623","Torbay","Age 10",4
+"2624","Torbay","Age 11",8
+"2625","Torbay","Age 12",12
+"2626","Torbay","Age 13",20
+"2627","Torbay","Age 14",29
+"2628","Torbay","Age 15",27
+"2629","Torbay","Age 16",9
+"2630","Torbay","Age 17",9
+"2631","Torbay","Age 18",5
+"2632","Torbay","Age 19 plus",0
+"2633","Torbay","Age 2",1
+"2634","Torbay","Age 3",0
+"2635","Torbay","Age 4",1
+"2636","Torbay","Age 5",2
+"2637","Torbay","Age 6",2
+"2638","Torbay","Age 7",2
+"2639","Torbay","Age 8",2
+"2640","Torbay","Age 9",3
+"2641","Tower Hamlets","Age 0",0
+"2642","Tower Hamlets","Age 1",0
+"2643","Tower Hamlets","Age 10",7
+"2644","Tower Hamlets","Age 11",19
+"2645","Tower Hamlets","Age 12",27
+"2646","Tower Hamlets","Age 13",19
+"2647","Tower Hamlets","Age 14",21
+"2648","Tower Hamlets","Age 15",26
+"2649","Tower Hamlets","Age 16",19
+"2650","Tower Hamlets","Age 17",16
+"2651","Tower Hamlets","Age 18",13
+"2652","Tower Hamlets","Age 19 plus",0
+"2653","Tower Hamlets","Age 2",0
+"2654","Tower Hamlets","Age 3",0
+"2655","Tower Hamlets","Age 4",1
+"2656","Tower Hamlets","Age 5",3
+"2657","Tower Hamlets","Age 6",2
+"2658","Tower Hamlets","Age 7",5
+"2659","Tower Hamlets","Age 8",8
+"2660","Tower Hamlets","Age 9",2
+"2661","Trafford","Age 0",0
+"2662","Trafford","Age 1",0
+"2663","Trafford","Age 10",5
+"2664","Trafford","Age 11",9
+"2665","Trafford","Age 12",15
+"2666","Trafford","Age 13",21
+"2667","Trafford","Age 14",27
+"2668","Trafford","Age 15",25
+"2669","Trafford","Age 16",32
+"2670","Trafford","Age 17",31
+"2671","Trafford","Age 18",20
+"2672","Trafford","Age 19 plus",0
+"2673","Trafford","Age 2",0
+"2674","Trafford","Age 3",0
+"2675","Trafford","Age 4",0
+"2676","Trafford","Age 5",1
+"2677","Trafford","Age 6",0
+"2678","Trafford","Age 7",0
+"2679","Trafford","Age 8",0
+"2680","Trafford","Age 9",2
+"2681","Wakefield","Age 0",0
+"2682","Wakefield","Age 1",0
+"2683","Wakefield","Age 10",6
+"2684","Wakefield","Age 11",17
+"2685","Wakefield","Age 12",22
+"2686","Wakefield","Age 13",34
+"2687","Wakefield","Age 14",25
+"2688","Wakefield","Age 15",29
+"2689","Wakefield","Age 16",10
+"2690","Wakefield","Age 17",8
+"2691","Wakefield","Age 18",1
+"2692","Wakefield","Age 19 plus",0
+"2693","Wakefield","Age 2",0
+"2694","Wakefield","Age 3",0
+"2695","Wakefield","Age 4",0
+"2696","Wakefield","Age 5",2
+"2697","Wakefield","Age 6",6
+"2698","Wakefield","Age 7",6
+"2699","Wakefield","Age 8",7
+"2700","Wakefield","Age 9",3
+"2701","Walsall","Age 0",0
+"2702","Walsall","Age 1",0
+"2703","Walsall","Age 10",9
+"2704","Walsall","Age 11",15
+"2705","Walsall","Age 12",39
+"2706","Walsall","Age 13",49
+"2707","Walsall","Age 14",66
+"2708","Walsall","Age 15",59
+"2709","Walsall","Age 16",20
+"2710","Walsall","Age 17",16
+"2711","Walsall","Age 18",9
+"2712","Walsall","Age 19 plus",41
+"2713","Walsall","Age 2",0
+"2714","Walsall","Age 3",0
+"2715","Walsall","Age 4",4
+"2716","Walsall","Age 5",20
+"2717","Walsall","Age 6",10
+"2718","Walsall","Age 7",13
+"2719","Walsall","Age 8",8
+"2720","Walsall","Age 9",5
+"2721","Waltham Forest","Age 0",0
+"2722","Waltham Forest","Age 1",0
+"2723","Waltham Forest","Age 10",7
+"2724","Waltham Forest","Age 11",15
+"2725","Waltham Forest","Age 12",12
+"2726","Waltham Forest","Age 13",20
+"2727","Waltham Forest","Age 14",18
+"2728","Waltham Forest","Age 15",60
+"2729","Waltham Forest","Age 16",26
+"2730","Waltham Forest","Age 17",13
+"2731","Waltham Forest","Age 18",6
+"2732","Waltham Forest","Age 19 plus",0
+"2733","Waltham Forest","Age 2",0
+"2734","Waltham Forest","Age 3",0
+"2735","Waltham Forest","Age 4",0
+"2736","Waltham Forest","Age 5",1
+"2737","Waltham Forest","Age 6",3
+"2738","Waltham Forest","Age 7",9
+"2739","Waltham Forest","Age 8",7
+"2740","Waltham Forest","Age 9",4
+"2741","Wandsworth","Age 0",0
+"2742","Wandsworth","Age 1",0
+"2743","Wandsworth","Age 10",28
+"2744","Wandsworth","Age 11",29
+"2745","Wandsworth","Age 12",35
+"2746","Wandsworth","Age 13",39
+"2747","Wandsworth","Age 14",34
+"2748","Wandsworth","Age 15",26
+"2749","Wandsworth","Age 16",36
+"2750","Wandsworth","Age 17",16
+"2751","Wandsworth","Age 18",0
+"2752","Wandsworth","Age 19 plus",0
+"2753","Wandsworth","Age 2",0
+"2754","Wandsworth","Age 3",0
+"2755","Wandsworth","Age 4",3
+"2756","Wandsworth","Age 5",7
+"2757","Wandsworth","Age 6",9
+"2758","Wandsworth","Age 7",24
+"2759","Wandsworth","Age 8",22
+"2760","Wandsworth","Age 9",22
+"2761","Warrington","Age 0",0
+"2762","Warrington","Age 1",0
+"2763","Warrington","Age 10",8
+"2764","Warrington","Age 11",14
+"2765","Warrington","Age 12",16
+"2766","Warrington","Age 13",26
+"2767","Warrington","Age 14",22
+"2768","Warrington","Age 15",23
+"2769","Warrington","Age 16",11
+"2770","Warrington","Age 17",16
+"2771","Warrington","Age 18",11
+"2772","Warrington","Age 19 plus",0
+"2773","Warrington","Age 2",0
+"2774","Warrington","Age 3",0
+"2775","Warrington","Age 4",1
+"2776","Warrington","Age 5",3
+"2777","Warrington","Age 6",4
+"2778","Warrington","Age 7",6
+"2779","Warrington","Age 8",13
+"2780","Warrington","Age 9",7
+"2781","Warwickshire","Age 0",0
+"2782","Warwickshire","Age 1",0
+"2783","Warwickshire","Age 10",19
+"2784","Warwickshire","Age 11",32
+"2785","Warwickshire","Age 12",55
+"2786","Warwickshire","Age 13",94
+"2787","Warwickshire","Age 14",109
+"2788","Warwickshire","Age 15",139
+"2789","Warwickshire","Age 16",63
+"2790","Warwickshire","Age 17",28
+"2791","Warwickshire","Age 18",0
+"2792","Warwickshire","Age 19 plus",0
+"2793","Warwickshire","Age 2",0
+"2794","Warwickshire","Age 3",0
+"2795","Warwickshire","Age 4",0
+"2796","Warwickshire","Age 5",1
+"2797","Warwickshire","Age 6",12
+"2798","Warwickshire","Age 7",13
+"2799","Warwickshire","Age 8",12
+"2800","Warwickshire","Age 9",21
+"2801","West Berkshire","Age 0",0
+"2802","West Berkshire","Age 1",0
+"2803","West Berkshire","Age 10",8
+"2804","West Berkshire","Age 11",16
+"2805","West Berkshire","Age 12",9
+"2806","West Berkshire","Age 13",13
+"2807","West Berkshire","Age 14",19
+"2808","West Berkshire","Age 15",28
+"2809","West Berkshire","Age 16",14
+"2810","West Berkshire","Age 17",11
+"2811","West Berkshire","Age 18",6
+"2812","West Berkshire","Age 19 plus",0
+"2813","West Berkshire","Age 2",0
+"2814","West Berkshire","Age 3",0
+"2815","West Berkshire","Age 4",0
+"2816","West Berkshire","Age 5",2
+"2817","West Berkshire","Age 6",2
+"2818","West Berkshire","Age 7",5
+"2819","West Berkshire","Age 8",8
+"2820","West Berkshire","Age 9",7
+"2821","West Northamptonshire","Age 0",0
+"2822","West Northamptonshire","Age 1",1
+"2823","West Northamptonshire","Age 10",12
+"2824","West Northamptonshire","Age 11",24
+"2825","West Northamptonshire","Age 12",51
+"2826","West Northamptonshire","Age 13",43
+"2827","West Northamptonshire","Age 14",34
+"2828","West Northamptonshire","Age 15",50
+"2829","West Northamptonshire","Age 16",36
+"2830","West Northamptonshire","Age 17",15
+"2831","West Northamptonshire","Age 18",5
+"2832","West Northamptonshire","Age 19 plus",0
+"2833","West Northamptonshire","Age 2",0
+"2834","West Northamptonshire","Age 3",0
+"2835","West Northamptonshire","Age 4",1
+"2836","West Northamptonshire","Age 5",4
+"2837","West Northamptonshire","Age 6",10
+"2838","West Northamptonshire","Age 7",13
+"2839","West Northamptonshire","Age 8",9
+"2840","West Northamptonshire","Age 9",7
+"2841","West Sussex","Age 0",0
+"2842","West Sussex","Age 1",0
+"2843","West Sussex","Age 10",83
+"2844","West Sussex","Age 11",166
+"2845","West Sussex","Age 12",188
+"2846","West Sussex","Age 13",188
+"2847","West Sussex","Age 14",228
+"2848","West Sussex","Age 15",181
+"2849","West Sussex","Age 16",119
+"2850","West Sussex","Age 17",72
+"2851","West Sussex","Age 18",35
+"2852","West Sussex","Age 19 plus",0
+"2853","West Sussex","Age 2",0
+"2854","West Sussex","Age 3",0
+"2855","West Sussex","Age 4",3
+"2856","West Sussex","Age 5",16
+"2857","West Sussex","Age 6",29
+"2858","West Sussex","Age 7",42
+"2859","West Sussex","Age 8",43
+"2860","West Sussex","Age 9",59
+"2861","Westminster","Age 0",0
+"2862","Westminster","Age 1",0
+"2863","Westminster","Age 10",2
+"2864","Westminster","Age 11",8
+"2865","Westminster","Age 12",6
+"2866","Westminster","Age 13",11
+"2867","Westminster","Age 14",12
+"2868","Westminster","Age 15",17
+"2869","Westminster","Age 16",14
+"2870","Westminster","Age 17",2
+"2871","Westminster","Age 18",3
+"2872","Westminster","Age 19 plus",0
+"2873","Westminster","Age 2",0
+"2874","Westminster","Age 3",1
+"2875","Westminster","Age 4",1
+"2876","Westminster","Age 5",1
+"2877","Westminster","Age 6",4
+"2878","Westminster","Age 7",4
+"2879","Westminster","Age 8",2
+"2880","Westminster","Age 9",2
+"2881","Westmorland and Furness","Age 0",0
+"2882","Westmorland and Furness","Age 1",0
+"2883","Westmorland and Furness","Age 10",5
+"2884","Westmorland and Furness","Age 11",12
+"2885","Westmorland and Furness","Age 12",16
+"2886","Westmorland and Furness","Age 13",18
+"2887","Westmorland and Furness","Age 14",21
+"2888","Westmorland and Furness","Age 15",18
+"2889","Westmorland and Furness","Age 16",24
+"2890","Westmorland and Furness","Age 17",22
+"2891","Westmorland and Furness","Age 18",20
+"2892","Westmorland and Furness","Age 19 plus",16
+"2893","Westmorland and Furness","Age 2",0
+"2894","Westmorland and Furness","Age 3",0
+"2895","Westmorland and Furness","Age 4",0
+"2896","Westmorland and Furness","Age 5",1
+"2897","Westmorland and Furness","Age 6",1
+"2898","Westmorland and Furness","Age 7",2
+"2899","Westmorland and Furness","Age 8",9
+"2900","Westmorland and Furness","Age 9",9
+"2901","Wigan","Age 0",0
+"2902","Wigan","Age 1",0
+"2903","Wigan","Age 10",13
+"2904","Wigan","Age 11",36
+"2905","Wigan","Age 12",34
+"2906","Wigan","Age 13",37
+"2907","Wigan","Age 14",50
+"2908","Wigan","Age 15",43
+"2909","Wigan","Age 16",35
+"2910","Wigan","Age 17",19
+"2911","Wigan","Age 18",15
+"2912","Wigan","Age 19 plus",0
+"2913","Wigan","Age 2",0
+"2914","Wigan","Age 3",0
+"2915","Wigan","Age 4",1
+"2916","Wigan","Age 5",6
+"2917","Wigan","Age 6",15
+"2918","Wigan","Age 7",8
+"2919","Wigan","Age 8",9
+"2920","Wigan","Age 9",9
+"2921","Wiltshire","Age 0",0
+"2922","Wiltshire","Age 1",0
+"2923","Wiltshire","Age 10",35
+"2924","Wiltshire","Age 11",61
+"2925","Wiltshire","Age 12",61
+"2926","Wiltshire","Age 13",71
+"2927","Wiltshire","Age 14",77
+"2928","Wiltshire","Age 15",82
+"2929","Wiltshire","Age 16",56
+"2930","Wiltshire","Age 17",61
+"2931","Wiltshire","Age 18",28
+"2932","Wiltshire","Age 19 plus",0
+"2933","Wiltshire","Age 2",0
+"2934","Wiltshire","Age 3",0
+"2935","Wiltshire","Age 4",1
+"2936","Wiltshire","Age 5",4
+"2937","Wiltshire","Age 6",1
+"2938","Wiltshire","Age 7",20
+"2939","Wiltshire","Age 8",23
+"2940","Wiltshire","Age 9",30
+"2941","Windsor and Maidenhead","Age 0",0
+"2942","Windsor and Maidenhead","Age 1",0
+"2943","Windsor and Maidenhead","Age 10",8
+"2944","Windsor and Maidenhead","Age 11",12
+"2945","Windsor and Maidenhead","Age 12",12
+"2946","Windsor and Maidenhead","Age 13",17
+"2947","Windsor and Maidenhead","Age 14",18
+"2948","Windsor and Maidenhead","Age 15",29
+"2949","Windsor and Maidenhead","Age 16",17
+"2950","Windsor and Maidenhead","Age 17",16
+"2951","Windsor and Maidenhead","Age 18",7
+"2952","Windsor and Maidenhead","Age 19 plus",0
+"2953","Windsor and Maidenhead","Age 2",0
+"2954","Windsor and Maidenhead","Age 3",0
+"2955","Windsor and Maidenhead","Age 4",0
+"2956","Windsor and Maidenhead","Age 5",0
+"2957","Windsor and Maidenhead","Age 6",0
+"2958","Windsor and Maidenhead","Age 7",3
+"2959","Windsor and Maidenhead","Age 8",2
+"2960","Windsor and Maidenhead","Age 9",7
+"2961","Wirral","Age 0",0
+"2962","Wirral","Age 1",0
+"2963","Wirral","Age 10",16
+"2964","Wirral","Age 11",18
+"2965","Wirral","Age 12",22
+"2966","Wirral","Age 13",51
+"2967","Wirral","Age 14",69
+"2968","Wirral","Age 15",50
+"2969","Wirral","Age 16",12
+"2970","Wirral","Age 17",7
+"2971","Wirral","Age 18",6
+"2972","Wirral","Age 19 plus",0
+"2973","Wirral","Age 2",0
+"2974","Wirral","Age 3",0
+"2975","Wirral","Age 4",1
+"2976","Wirral","Age 5",1
+"2977","Wirral","Age 6",1
+"2978","Wirral","Age 7",5
+"2979","Wirral","Age 8",2
+"2980","Wirral","Age 9",9
+"2981","Wokingham","Age 0",0
+"2982","Wokingham","Age 1",0
+"2983","Wokingham","Age 10",19
+"2984","Wokingham","Age 11",45
+"2985","Wokingham","Age 12",33
+"2986","Wokingham","Age 13",30
+"2987","Wokingham","Age 14",26
+"2988","Wokingham","Age 15",31
+"2989","Wokingham","Age 16",20
+"2990","Wokingham","Age 17",21
+"2991","Wokingham","Age 18",11
+"2992","Wokingham","Age 19 plus",1
+"2993","Wokingham","Age 2",0
+"2994","Wokingham","Age 3",0
+"2995","Wokingham","Age 4",0
+"2996","Wokingham","Age 5",4
+"2997","Wokingham","Age 6",5
+"2998","Wokingham","Age 7",16
+"2999","Wokingham","Age 8",11
+"3000","Wokingham","Age 9",15
+"3001","Wolverhampton","Age 0",0
+"3002","Wolverhampton","Age 1",0
+"3003","Wolverhampton","Age 10",8
+"3004","Wolverhampton","Age 11",13
+"3005","Wolverhampton","Age 12",13
+"3006","Wolverhampton","Age 13",22
+"3007","Wolverhampton","Age 14",37
+"3008","Wolverhampton","Age 15",40
+"3009","Wolverhampton","Age 16",24
+"3010","Wolverhampton","Age 17",13
+"3011","Wolverhampton","Age 18",6
+"3012","Wolverhampton","Age 19 plus",0
+"3013","Wolverhampton","Age 2",0
+"3014","Wolverhampton","Age 3",0
+"3015","Wolverhampton","Age 4",1
+"3016","Wolverhampton","Age 5",0
+"3017","Wolverhampton","Age 6",4
+"3018","Wolverhampton","Age 7",6
+"3019","Wolverhampton","Age 8",4
+"3020","Wolverhampton","Age 9",1
+"3021","Worcestershire","Age 0",0
+"3022","Worcestershire","Age 1",0
+"3023","Worcestershire","Age 10",30
+"3024","Worcestershire","Age 11",66
+"3025","Worcestershire","Age 12",85
+"3026","Worcestershire","Age 13",92
+"3027","Worcestershire","Age 14",96
+"3028","Worcestershire","Age 15",110
+"3029","Worcestershire","Age 16",61
+"3030","Worcestershire","Age 17",57
+"3031","Worcestershire","Age 18",51
+"3032","Worcestershire","Age 19 plus",0
+"3033","Worcestershire","Age 2",0
+"3034","Worcestershire","Age 3",0
+"3035","Worcestershire","Age 4",1
+"3036","Worcestershire","Age 5",1
+"3037","Worcestershire","Age 6",5
+"3038","Worcestershire","Age 7",13
+"3039","Worcestershire","Age 8",15
+"3040","Worcestershire","Age 9",25
+"3041","York","Age 0",0
+"3042","York","Age 1",0
+"3043","York","Age 10",2
+"3044","York","Age 11",7
+"3045","York","Age 12",2
+"3046","York","Age 13",6
+"3047","York","Age 14",10
+"3048","York","Age 15",12
+"3049","York","Age 16",7
+"3050","York","Age 17",4
+"3051","York","Age 18",6
+"3052","York","Age 19 plus",0
+"3053","York","Age 2",0
+"3054","York","Age 3",0
+"3055","York","Age 4",0
+"3056","York","Age 5",0
+"3057","York","Age 6",0
+"3058","York","Age 7",0
+"3059","York","Age 8",0
+"3060","York","Age 9",2

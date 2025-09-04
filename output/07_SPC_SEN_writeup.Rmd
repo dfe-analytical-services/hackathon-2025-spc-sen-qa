@@ -1,18 +1,126 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: "Automated QA of SPC and SEN data"
+author: "Hackathon 2025"
+date: "2025-09-04"
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE,
+                      dev = 'svg')
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+library(tidyverse)
+library(janitor)
 
-```{r}
-plot(cars)
+
+time_identifier = 202425
+options(scipen = 999)
+theme_set(theme_minimal())
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+```{r load in the data, include=FALSE}
+#read in the data to be used in the report and comparisons
+SPC_internal_comparison_summary <- read.csv("./SPC_combined_summary.csv")
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+SPC_ap_age_national <- read.csv("./national_total_spc_ap_census_age.csv")
+SPC_ap_age_regional <- read.csv("./regional_total_spc_ap_census_age.csv")
+SPC_ap_age_la <- read.csv("./la_total_spc_ap_census_age.csv")
+
+
+
+```
+
+```{r data comparisons and calculations, include=FALSE}
+#example code commented out below
+
+# ap_age_national_comparison <- SPC_ap_age_national %>%
+#   left_join(SEC_ap_age_national, by = "age") %>%
+#   mutate(mismatch = ifelse(national_total.x != national_total.y, 1, 0))
+
+#calcualate percentage all match
+SPC_internal_comparison_summary <- SPC_internal_comparison_summary %>%
+  mutate(all_match_count = ifelse(Internal_comparison_result == "All match", 1, 0),
+         regional_mismatch_count = ifelse(Internal_comparison_result == "regional mismatches", 1, 0),
+         national_mismatch_count = ifelse(Internal_comparison_result == "national mismatches", 1, 0),
+         regional_national_mismatch_count = ifelse(Internal_comparison_result == "regional & national mismatches", 1, 0))
+
+#count of matching and mismatching
+SPC_all_match_total <- sum(SPC_internal_comparison_summary$all_match_count)
+SPC_regional_mismatch_count <- sum(SPC_internal_comparison_summary$regional_mismatch_count)
+SPC_national_mismatch_count <- sum(SPC_internal_comparison_summary$national_mismatch_count)
+SPC_regional_national_mismatch_count <- sum(SPC_internal_comparison_summary$regional_national_mismatch_count)
+
+#percentage matching and mismatching
+SPC_all_match_perc <- paste0(as.character(((sum(SPC_internal_comparison_summary$all_match_count) /  nrow(SPC_internal_comparison_summary))*100)),"%")
+SPC_regional_mismatch_perc <- paste0(as.character(((sum(SPC_internal_comparison_summary$regional_mismatch_count) /  nrow(SPC_internal_comparison_summary))*100)),"%")
+SPC_national_mismatch_prec <- paste0(as.character(((sum(SPC_internal_comparison_summary$national_mismatch_count) /  nrow(SPC_internal_comparison_summary))*100)),"%")
+SPC_regional_national_mismatch_prec <- paste0(as.character(((sum(SPC_internal_comparison_summary$regional_national_mismatch_count) /  nrow(SPC_internal_comparison_summary))*100)),"%")
+
+#mismatched rows
+SPC_regional_mismatch_rows <- SPC_internal_comparison_summary %>%
+  filter(regional_mismatch_count == 1)
+SPC_national_mismatch_rows <- SPC_internal_comparison_summary %>%
+  filter(national_mismatch_count == 1)
+SPC_regional_national_mismatch_rows <- SPC_internal_comparison_summary %>%
+  filter(regional_national_mismatch_count == 1)
+
+```
+
+
+## Internal comparisons
+
+Comparisons have been made internally for assurance that the totals were the same when grouping by Local Authority, Region and Nation across variable such as age, sex and free school meal eligibility.
+
+Local Authority data was aggregated to the regional and national level and checked against totals published for these geographic levels, Regional data was aggregated to the national level and checked against published totals.
+
+### SPC internal comparisons
+
+In total `r nrow(SPC_internal_comparison_summary)` combinations of SPC data sets and grouping variables were tested. 
+
+Of these:
+
+`r SPC_all_match_total` (`r SPC_all_match_perc`) matched across regions and nations.
+
+`r SPC_regional_mismatch_count` (`r SPC_regional_mismatch_perc`) mismatched across regions.
+
+`r SPC_national_mismatch_count` (`r SPC_national_mismatch_prec`) mismatched across nations.
+
+`r SPC_regional_national_mismatch_count` (`r SPC_regional_national_mismatch_prec`) mismatched across regions and nations.
+
+
+```{r mismatch-tables}
+
+SPC_regional_mismatch_rows %>%
+  select(Internal_comparison_result,Source_and_grouping) %>%
+  bind_rows(data.frame(Internal_comparison_result = "", Source_and_grouping = "")) %>%
+knitr::kable(col.names = c("Mismatch type",
+                           "Mismatch location"),
+             align = "lrrrr",
+             caption = "Regional mismatches in SPC data")
+
+SPC_national_mismatch_rows %>%
+  select(Internal_comparison_result,Source_and_grouping) %>%
+  bind_rows(data.frame(Internal_comparison_result = "", Source_and_grouping = "")) %>%
+knitr::kable(col.names = c("Mismatch type",
+                           "Mismatch location"),
+             align = "lrrrr",
+             caption = "National mismatches in SPC data")
+
+SPC_regional_national_mismatch_rows %>%
+  select(Internal_comparison_result,Source_and_grouping) %>%
+  bind_rows(data.frame(Internal_comparison_result = "", Source_and_grouping = "")) %>%
+knitr::kable(col.names = c("Mismatch type",
+                           "Mismatch location"),
+             align = "lrrrr",
+             caption = "Regional and National mismatches in SPC data")
+
+```
+
+
+### SPA internal comparisons
+
+Temporary text
+
+

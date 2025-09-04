@@ -158,7 +158,7 @@ rm(sen_age_sex_1,sen_age_sex_2,sen_age_sex_3,sen_age_sex_4,sen_age_sex_5)
 
 # note that the percentage columns are not being imported
 
-sen_secondaryneed <- sen_secondaryneed %>% 
+sen_secondaryneed_long_MR <- sen_secondaryneed %>% 
   select (-c(secondary_need_spld_percent, secondary_need_mld_percent,
              secondary_need_sld_percent, secondary_need_pmld_percent,
              secondary_need_semh_percent, secondary_need_slcn_percent,
@@ -171,7 +171,7 @@ sen_secondaryneed <- sen_secondaryneed %>%
 # get the overall totals 
 
 
-sen_secondaryneed_1 <- sen_secondaryneed %>% 
+sen_secondaryneed_1 <- sen_secondaryneed_long_MR %>% 
   select(time_period,time_identifier,geographic_level,
          country_code,country_name,region_name,
          region_code,old_la_code,la_name,
@@ -183,7 +183,7 @@ sen_secondaryneed_1 <- sen_secondaryneed %>%
 
 #Get the secondaryneed total by pivot_longer
 
-sen_secondaryneed_2  <- sen_secondaryneed %>% 
+sen_secondaryneed_2  <- sen_secondaryneed_long_MR %>% 
   select(-number_of_pupils) %>% 
   pivot_longer(
     cols = starts_with("secondary_need_"),
@@ -193,9 +193,9 @@ sen_secondaryneed_2  <- sen_secondaryneed %>%
 
 # Combine back into the one file and remove the partial files
 
-sen_secondaryneed_long <- rbind(sen_secondaryneed_1, sen_secondaryneed_2)
+sen_secondaryneed_long_MR <- rbind(sen_secondaryneed_1, sen_secondaryneed_2)
 
-rm(sen_secondaryneed_1, sen_secondaryneed_2, sen_secondaryneed)
+rm(sen_secondaryneed_1, sen_secondaryneed_2)
 
 
 

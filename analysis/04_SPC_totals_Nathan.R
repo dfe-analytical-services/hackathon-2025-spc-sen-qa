@@ -168,27 +168,81 @@ regional_totals_comparison <- regional_totals %>%
 
 }
 
-#ap placement comparisons
+
+#SPC ap placement comparisons
 dataset = spc_ap_placement
 variables = c("age","fsm","sex","ethnicity_minor")
 
 for (i in variables) {
   grouping_vars <- setdiff(variables, i)
-  test_summarise(dataset, i, paste0("ap_placement_",i), "number_of_pupils", grouping_vars)
+  test_summarise(dataset, i, paste0("spc_ap_placement_",i), "number_of_pupils", grouping_vars)
 }
-test_summarise(dataset,"", "ap_placement_total", "number_of_pupils", variables)
+test_summarise(dataset,"", "spc_ap_placement_total", "number_of_pupils", variables)
 
 
-#pupil fsm comparisons
-names(spc_pupil_fsm)
-dataset = spc_pupil_fsm
-variables = c("phase_type_grouping","characteristic_group","characteristic")
+#SPC pupil fsm ethnicity yrgp comparisons
+dataset = spc_pupil_fsm_full
+variables = c("phase_type_grouping","characteristic","fsm_eligibility")
 
 for (i in variables) {
   grouping_vars <- setdiff(variables, i)
-  test_summarise(dataset, i, paste0("pupil_fsm_",i), "number_of_pupils", grouping_vars)
+  test_summarise(dataset, i, paste0("spc_pupil_fsm_",i), "number_of_pupils", grouping_vars)
 }
-test_summarise(dataset, "", "pupil_fsm_total", "number_of_pupils", variables)
+test_summarise(dataset, "", "spc_pupil_fsm_total", "number_of_pupils", variables)
+
+
+#SPC universal infant free school meals comparison
+dataset = spc_uifsm_full
+variables = c("phase_type_grouping","characteristic","lunch_taken")
+
+for (i in variables) {
+  grouping_vars <- setdiff(variables, i)
+  test_summarise(dataset, i, paste0("spc_uifsm_",i), "pupils", grouping_vars)
+}
+test_summarise(dataset, "", "spc_uifsm_total", "pupils", variables)
+
+
+#SPC young carers comparison
+dataset = spc_young_carers_full
+variables = c("phase_type_grouping","characteristic","young_carer")
+
+for (i in variables) {
+  grouping_vars <- setdiff(variables, i)
+  test_summarise(dataset, i, paste0("spc_young_carers_",i), "number_of_pupils", grouping_vars)
+}
+test_summarise(dataset, "", "spc_young_carers_total", "number_of_pupils", variables)
+
+
+#SPC AP characteristics
+dataset = spc_ap_chars
+variables = c("pupil_characteristic","setting_type")
+
+for (i in variables) {
+  grouping_vars <- setdiff(variables, i)
+  test_summarise(dataset, i, paste0("spc_ap_chars_",i), "pupils", grouping_vars)
+}
+test_summarise(dataset, "", "spc_ap_chars_total", "pupils", variables)
+
+
+#SPC AP placement
+dataset = sp_ap_placement
+variables = c("pupil_characteristic","setting_type")
+
+for (i in variables) {
+  grouping_vars <- setdiff(variables, i)
+  test_summarise(dataset, i, paste0("spc_ap_placement_",i), "pupils", grouping_vars)
+}
+test_summarise(dataset, "", "spc_ap_placement_total", "pupils", variables)
+
+#SPC school characteristics
+dataset = spc_school_chars
+variables = c("sex_of_school_description","phase_type_grouping","type_of_establishment","denomination","admissions_policy","urban_rural","academy_flag")
+
+for (i in variables) {
+  grouping_vars <- setdiff(variables, i)
+  test_summarise(dataset, i, paste0("spc_school_chars_",i), "headcount_of_pupils", grouping_vars)
+}
+test_summarise(dataset, "", "spc_school_chars_total", "headcount_of_pupils", variables)
 
 
 

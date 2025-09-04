@@ -1,3 +1,11 @@
+### The first section wrangles the files from the Special educational needs in England publication to get them into a tidy long format
+## Note there are 5 tables in the publication
+## We have not imported the Pupils in all schools, by type of SEN provision - 2016 to 2025 (sen_allpupils) table
+## We have not imported the percentages
+## The processed files have the _long suffix
+
+
+
 ## pivot for age & sex
 
 sen_age_sex_long <- sen_age_sex %>%
@@ -24,6 +32,10 @@ sen_age_sex_long <- sen_age_sex %>%
 test <- long_df %>% 
   filter(time_period == 202324, sen_status == 'Total', sen_primary_need == 'Total', geographic_level == 'National', phase_type_grouping == 'Total') 
 View(test)
+
+
+
+
 
 ## Pivot for ethnicity
 
@@ -61,6 +73,135 @@ sen_secondaryneed_long <- sen_secondaryneed %>%
                names_to = "type_secondary_need", 
                values_to = "number_of_pupils") %>%
   mutate(type_secondary_need = gsub("secondary_need_", "", type_secondary_need)) 
+
+
+
+
+##unpivot the sen_age_sex file into one file [by Matt Rolfe]
+
+# note that the percentage columns are not being imported
+
+sen_age_sex_1 <- sen_age_sex %>% 
+  select(time_period,time_identifier,geographic_level,country_code,country_name,region_name,region_code,old_la_code,la_name,
+         new_la_code,phase_type_grouping,sen_status,sen_primary_need,number_of_pupils) %>% 
+  mutate(sex = 'Total', age = 'Total', percent = NA) %>% 
+  relocate(sex, .after = sen_primary_need) %>% 
+  relocate(age, .after = sex)  %>% 
+  relocate(number_of_pupils, .after = age)  %>% 
+  relocate(percent, .after = number_of_pupils)                            
+
+sen_age_sex_2 <- sen_age_sex %>% 
+  select(time_period,time_identifier,geographic_level,country_code,country_name,region_name,region_code,old_la_code,la_name,
+         new_la_code,phase_type_grouping,sen_status,sen_primary_need,pupil_sex_male,pupil_sex_female) %>% 
+  mutate(age = 'Total', percent = NA) %>% 
+  pivot_longer(cols = starts_with("pupil_sex_"), 
+               names_to = "sex", 
+               values_to = "number_of_pupils") %>% 
+  relocate(age, .after = sex)  %>% 
+  relocate(number_of_pupils, .after = age)  %>% 
+  relocate(percent, .after = number_of_pupils) %>% 
+  mutate(sex = gsub('$pupil_sex_','',age))
+
+sen_age_sex_3 <- sen_age_sex %>% 
+  select(time_period,time_identifier,geographic_level,country_code,country_name,region_name,region_code,old_la_code,la_name,
+         new_la_code,phase_type_grouping,sen_status,sen_primary_need,age_2_and_under,age_3,age_4,age_5,age_6,age_7,age_8,age_9,age_10, age_11,age_12,age_13,age_14,age_15,age_16,age_17,age_18,age_19_and_over) %>% 
+  mutate(sex = 'Total', percent = NA) %>% 
+  pivot_longer(cols = starts_with("age_"), 
+               names_to = "age", 
+               values_to = "number_of_pupils") %>% 
+  relocate(age, .after = sex)  %>% 
+  relocate(number_of_pupils, .after = age)  %>% 
+  relocate(percent, .after = number_of_pupils) %>% 
+  mutate(age = gsub('age_','',age),
+         age = gsub('female_','',age),
+         age = gsub('male_','',age))      
+
+
+sen_age_sex_4 <- sen_age_sex %>% 
+  select(time_period,time_identifier,geographic_level,country_code,country_name,region_name,region_code,old_la_code,la_name,
+         new_la_code,phase_type_grouping,sen_status,sen_primary_need,male_age_2_and_under,male_age_3_lower,male_age_3_middle,male_age_3_upper,male_age_4_lower,male_age_4_middle,male_age_4_upper,male_age_5,male_age_6,male_age_7,male_age_8,male_age_9,
+         male_age_10, male_age_11,male_age_12,male_age_13,male_age_14,male_age_15,male_age_16,male_age_17,male_age_18,male_age_19_and_over) %>% 
+  mutate(sex = 'Male', percent = NA) %>% 
+  pivot_longer(cols = starts_with("male_age_"), 
+               names_to = "age", 
+               values_to = "number_of_pupils") %>% 
+  relocate(age, .after = sex)  %>% 
+  relocate(number_of_pupils, .after = age)  %>% 
+  relocate(percent, .after = number_of_pupils) %>% 
+  mutate(age = gsub('age_','',age),
+         age = gsub('female_','',age),
+         age = gsub('male_','',age))
+
+sen_age_sex_5 <- sen_age_sex %>% 
+  select(time_period,time_identifier,geographic_level,country_code,country_name,region_name,region_code,old_la_code,la_name,
+         new_la_code,phase_type_grouping,sen_status,sen_primary_need,female_age_2_and_under,female_age_3_lower,female_age_3_middle,female_age_3_upper,female_age_4_lower,female_age_4_middle,female_age_4_upper,female_age_5,female_age_6,female_age_7,female_age_8,female_age_9,
+         female_age_10, female_age_11,female_age_12,female_age_13,female_age_14,female_age_15,female_age_16,female_age_17,female_age_18,female_age_19_and_over) %>% 
+  mutate(sex = 'Female', percent = NA) %>% 
+  pivot_longer(cols = starts_with("female_age_"), 
+               names_to = "age", 
+               values_to = "number_of_pupils") %>% 
+  relocate(age, .after = sex)  %>% 
+  relocate(number_of_pupils, .after = age)  %>% 
+  relocate(percent, .after = number_of_pupils) %>% 
+  mutate(age = gsub('age_','',age),
+         age = gsub('female_','',age),
+         age = gsub('male_','',age))
+
+# Combine back into the one file and remove the partial files
+
+sen_age_sex_long_MR <- rbind(sen_age_sex_1,sen_age_sex_2,sen_age_sex_3,sen_age_sex_4,sen_age_sex_5)
+rm(sen_age_sex_1,sen_age_sex_2,sen_age_sex_3,sen_age_sex_4,sen_age_sex_5)
+
+
+
+## unpivot the sen_secondary_need file into one file [by Matt Rolfe]
+
+# note that the percentage columns are not being imported
+
+sen_secondaryneed <- sen_secondaryneed %>% 
+  select (-c(secondary_need_spld_percent, secondary_need_mld_percent,
+             secondary_need_sld_percent, secondary_need_pmld_percent,
+             secondary_need_semh_percent, secondary_need_slcn_percent,
+             secondary_need_hi_percent, secondary_need_vi_percent,
+             secondary_need_msi_percent, secondary_need_pd_percent,
+             secondary_need_asd_percent, secondary_need_oth_percent,
+             secondary_need_nsa_percent))
+
+
+# get the overall totals 
+
+
+sen_secondaryneed_1 <- sen_secondaryneed %>% 
+  select(time_period,time_identifier,geographic_level,
+         country_code,country_name,region_name,
+         region_code,old_la_code,la_name,
+         new_la_code,phase_type_grouping,sen_status,
+         sen_primary_need,number_of_pupils) %>% 
+  mutate(secondary_need = 'Total') %>% 
+  relocate(secondary_need, .after = sen_primary_need)
+
+
+#Get the secondaryneed total by pivot_longer
+
+sen_secondaryneed_2  <- sen_secondaryneed %>% 
+  select(-number_of_pupils) %>% 
+  pivot_longer(
+    cols = starts_with("secondary_need_"),
+    names_to = "secondary_need",
+    values_to = "number_of_pupils"
+  )
+
+# Combine back into the one file and remove the partial files
+
+sen_secondaryneed_long <- rbind(sen_secondaryneed_1, sen_secondaryneed_2)
+
+rm(sen_secondaryneed_1, sen_secondaryneed_2, sen_secondaryneed)
+
+
+
+
+
+
 
 
 # Calculates totals for the SEN publication data files

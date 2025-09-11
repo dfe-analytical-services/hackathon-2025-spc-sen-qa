@@ -39,11 +39,11 @@ source("setup/02_read_SPC.R")
 
 ```
 
-```{r}
+#```{r}
 
-source("setup/03_read_SEN.R")
+#source("setup/03_read_SEN.R")
 
-```
+#```
 
 
 # Analysis
@@ -52,24 +52,24 @@ Calculate totals for SPC
 
 ```{r}
 
-source("analysis/04_SPC_totals.R")
+source("analysis/04_SPC_totals_Nathan.R")
 
 ```
 
 Calculate totals for SEN
 
-```{r}
+#```{r}
 
-source("analysis/05_SEN_totals.R")
-
+#source("analysis/05_SEN_totals.R")
+#
 ```
 
 Compare SEN & SPC
 
-```{r}
+#```{r}
 
-source("analysis/06_SPC_SEN_comparisons.R")
-
+#source("analysis/06_SPC_SEN_comparisons.R")
+#
 ```
 
 ## outputs
